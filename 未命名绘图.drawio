@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2020-11-25T04:55:41.954Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="zAcV70fU3twBeYcEFeg3" version="13.9.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-25T05:01:11.996Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.111 Safari/537.36" etag="jw7joyCQCdtn8DKFQRZC" version="13.9.9" type="github">
   <diagram id="CM0YxYGdWrZJXT51vlk3" name="第 1 页">
     <mxGraphModel dx="2462" dy="839" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ajMnAxzSyxpKC6vZ1B0v-71" value="" style="shape=image;imageAspect=0;aspect=fixed;verticalLabelPosition=bottom;verticalAlign=top;strokeWidth=3;image=https://github.com/KhronosGroup/glTF/blob/master/specification/2.0/figures/dictionary-objects.png?raw=true;" vertex="1" parent="1">
+          <mxGeometry x="-184.84" y="1550" width="874.84" height="583.79" as="geometry" />
+        </mxCell>
         <mxCell id="faCQXywONK161ndu06By-3" value="LoadBinaryFromFile&#xa;（LoadASCIIFromFile）&#xa;" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=40;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="339" y="310" width="121" height="90" as="geometry">
             <mxRectangle x="310" y="306" width="150" height="30" as="alternateBounds" />
@@ -352,6 +355,21 @@
         </mxCell>
         <mxCell id="ajMnAxzSyxpKC6vZ1B0v-66" value="bytelength" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="ajMnAxzSyxpKC6vZ1B0v-65">
           <mxGeometry x="20" y="40" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMnAxzSyxpKC6vZ1B0v-74" value="VertexBuffer" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="50" y="2100" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMnAxzSyxpKC6vZ1B0v-75" value="IndexBuffer" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=3;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="207.58" y="2100" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ajMnAxzSyxpKC6vZ1B0v-77" value="" style="endArrow=classic;startArrow=classic;html=1;strokeColor=#0D0007;strokeWidth=3;" edge="1" parent="1" target="ajMnAxzSyxpKC6vZ1B0v-75">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="2100" as="sourcePoint" />
+            <mxPoint x="170" y="2050" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="180" y="2050" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
