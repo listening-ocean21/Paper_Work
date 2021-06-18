@@ -1,1 +1,37 @@
-<mxfile host="app.diagrams.net" modified="2021-06-18T07:31:57.864Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" version="14.8.0" etag="VoVLhHEgCZG9cfQAo8yL" type="github"><diagram id="hZi3u2cZSo8oJTViCJi3">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-18T08:00:25.096Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36" etag="sCZBv9AnpKwabiD_J98x" version="14.8.0" type="github">
+  <diagram id="hZi3u2cZSo8oJTViCJi3" name="第 1 页">
+    <mxGraphModel dx="920" dy="554" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0Dsf8X10YN6FmmkzfKQ9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.007;entryY=0.098;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;" edge="1" parent="1" source="0Dsf8X10YN6FmmkzfKQ9-7" target="0Dsf8X10YN6FmmkzfKQ9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0Dsf8X10YN6FmmkzfKQ9-1" value="ImageData" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="60" y="410" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0Dsf8X10YN6FmmkzfKQ9-2" value="临时缓冲区:必须对host visible可见，&#xa;可以映射，作为传输源copy&#xa;图像数据到Image对象" style="swimlane;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="440" y="420" width="400" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="0Dsf8X10YN6FmmkzfKQ9-13" value="传输源：VK_IMAGE_USAGE_TRANSFER_SRC_BIT" style="whiteSpace=wrap;html=1;" vertex="1" parent="0Dsf8X10YN6FmmkzfKQ9-2">
+          <mxGeometry x="26" y="60" width="364" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Dsf8X10YN6FmmkzfKQ9-14" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span style=&quot;font-size: 15px&quot;&gt;&lt;font color=&quot;#555555&quot; face=&quot;microsoft yahei&quot;&gt;对设备内存可见：VK_MEMORY_PROPERTY_HOST_VISIBLE_BIT&amp;nbsp; VK_MEMORY_PROPERTY_HOST_COHERENT_BIT&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0Dsf8X10YN6FmmkzfKQ9-2">
+          <mxGeometry x="30" y="130" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0Dsf8X10YN6FmmkzfKQ9-7" value="先vkMapMemory,&lt;br&gt;然后memcpy，&lt;br&gt;最后vkUnmapMemory" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="170" y="400" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0Dsf8X10YN6FmmkzfKQ9-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;" edge="1" parent="1" source="0Dsf8X10YN6FmmkzfKQ9-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="460" as="sourcePoint" />
+            <mxPoint x="169" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0Dsf8X10YN6FmmkzfKQ9-16" value="TextureImage:Shader可以直接访问临时缓冲区的数据，&#xa;但效率没有访问Image对象高，图像中像素被称作纹素" style="swimlane;startSize=45;" vertex="1" parent="1">
+          <mxGeometry x="940" y="420" width="330" height="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
