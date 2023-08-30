@@ -1,9 +1,66 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T07:22:34.603Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" version="21.7.0" etag="_tNKFVwqBPPyb99bhXrw" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-30T07:57:09.162Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36 Edg/116.0.1938.62" etag="KRKWWbkFfb5xSC_-Nnbv" version="21.7.0" type="github">
   <diagram name="第 1 页" id="s2snfImjlksssQ3lNaat">
-    <mxGraphModel>
+    <mxGraphModel dx="951" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="TSpRPWHZfFyNP2IxD03n-18" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f7e5b0;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="150" y="490" width="370" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="TSpRPWHZfFyNP2IxD03n-1" value="Client" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TSpRPWHZfFyNP2IxD03n-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.364;exitY=1.002;exitDx=0;exitDy=0;entryX=0.388;entryY=-0.006;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="TSpRPWHZfFyNP2IxD03n-2" target="TSpRPWHZfFyNP2IxD03n-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TSpRPWHZfFyNP2IxD03n-2" value="Server" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TSpRPWHZfFyNP2IxD03n-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.015;exitY=0.355;exitDx=0;exitDy=0;entryX=0.003;entryY=0.343;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" edge="1" parent="1" source="TSpRPWHZfFyNP2IxD03n-1" target="TSpRPWHZfFyNP2IxD03n-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="380" as="sourcePoint" />
+            <mxPoint x="440" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TSpRPWHZfFyNP2IxD03n-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.629;exitY=0.008;exitDx=0;exitDy=0;entryX=0.65;entryY=0.983;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="TSpRPWHZfFyNP2IxD03n-4" target="TSpRPWHZfFyNP2IxD03n-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TSpRPWHZfFyNP2IxD03n-4" value="PCG算法" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="610" width="140" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="TSpRPWHZfFyNP2IxD03n-5" value="Item 1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TSpRPWHZfFyNP2IxD03n-4">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TSpRPWHZfFyNP2IxD03n-6" value="Item 2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TSpRPWHZfFyNP2IxD03n-4">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TSpRPWHZfFyNP2IxD03n-7" value="Item 3" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="TSpRPWHZfFyNP2IxD03n-4">
+          <mxGeometry y="90" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TSpRPWHZfFyNP2IxD03n-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;fillColor=#f8cecc;strokeColor=#b85450;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="TSpRPWHZfFyNP2IxD03n-2" target="TSpRPWHZfFyNP2IxD03n-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="540" as="sourcePoint" />
+            <mxPoint x="246" y="559" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TSpRPWHZfFyNP2IxD03n-13" value="Unity" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="330" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TSpRPWHZfFyNP2IxD03n-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="409.9999999999999" as="sourcePoint" />
+            <mxPoint x="220" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TSpRPWHZfFyNP2IxD03n-20" value="&lt;b&gt;&lt;font style=&quot;font-size: 15px;&quot;&gt;PCG插件&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="700" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TSpRPWHZfFyNP2IxD03n-21" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.555;entryY=0.994;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.549;exitY=-0.025;exitDx=0;exitDy=0;exitPerimeter=0;fillColor=#f8cecc;strokeColor=#b85450;" edge="1" parent="1" source="TSpRPWHZfFyNP2IxD03n-1" target="TSpRPWHZfFyNP2IxD03n-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="500" as="sourcePoint" />
+            <mxPoint x="290" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
