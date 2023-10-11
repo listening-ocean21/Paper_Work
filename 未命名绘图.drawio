@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T13:52:50.716Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="j0_HQ8_wFlJki98n4p5K" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T13:56:50.335Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="ig0HFfgNINO17P0Un1qX" version="21.8.2" type="github">
   <diagram name="第 1 页" id="s2snfImjlksssQ3lNaat">
-    <mxGraphModel dx="2905" dy="584" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2031" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1118,6 +1118,12 @@
         <mxCell id="7l8nPw5GP7gn8wgr-0gG-451" value="根据高度图生成occlusion、curvature、normal、slope" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-429">
           <mxGeometry x="30.75" y="342.5" width="225" height="35" as="geometry" />
         </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-513" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#FF0000;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7l8nPw5GP7gn8wgr-0gG-429" target="7l8nPw5GP7gn8wgr-0gG-457">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="254.5" y="260.00000000000045" as="sourcePoint" />
+            <mxPoint x="612.0999999999995" y="692.2999999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="7l8nPw5GP7gn8wgr-0gG-454" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.001;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" edge="1" parent="1" source="7l8nPw5GP7gn8wgr-0gG-432" target="7l8nPw5GP7gn8wgr-0gG-428">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-80" y="2500" as="sourcePoint" />
@@ -1125,7 +1131,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="7l8nPw5GP7gn8wgr-0gG-457" value="cook_terrain_flowmap_GPU_v1" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-880" y="2330" width="530" height="670" as="geometry" />
+          <mxGeometry x="95.16999999999996" y="2960" width="530" height="650" as="geometry" />
         </mxCell>
         <mxCell id="7l8nPw5GP7gn8wgr-0gG-458" value="判断 input_rect大小（是否大于2049）" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-457">
           <mxGeometry x="60.17000000000007" y="30" width="130" height="56" as="geometry" />
@@ -1200,17 +1206,26 @@
         <mxCell id="7l8nPw5GP7gn8wgr-0gG-477" value="for (i &amp;lt; _FlowMapRainTime; i +=_FlowMapSyncSteps)" style="swimlane;whiteSpace=wrap;html=1;startSize=35;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-457">
           <mxGeometry x="295.86" y="150" width="210" height="190" as="geometry" />
         </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-511" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7l8nPw5GP7gn8wgr-0gG-477" source="7l8nPw5GP7gn8wgr-0gG-478" target="7l8nPw5GP7gn8wgr-0gG-481">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="7l8nPw5GP7gn8wgr-0gG-478" value="rain_across_full_layer();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-477">
           <mxGeometry x="10" y="40" width="190" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7l8nPw5GP7gn8wgr-0gG-481" value="根据指定次数导出Seconary flow map" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-477">
-          <mxGeometry x="14.139999999999986" y="110" width="190" height="60" as="geometry" />
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-481" value="根据指定次数导出Seconary flow map" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FF00;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-477">
+          <mxGeometry x="9.999999999999986" y="130" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7l8nPw5GP7gn8wgr-0gG-479" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.581;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7l8nPw5GP7gn8wgr-0gG-457" source="7l8nPw5GP7gn8wgr-0gG-469" target="7l8nPw5GP7gn8wgr-0gG-476">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="7l8nPw5GP7gn8wgr-0gG-506" value="rain_across_full_layer();&lt;br&gt;再模拟一轮,导出Primary flow map（velocity)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-457">
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-512" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="7l8nPw5GP7gn8wgr-0gG-457" source="7l8nPw5GP7gn8wgr-0gG-506" target="7l8nPw5GP7gn8wgr-0gG-509">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-506" value="rain_across_full_layer();&lt;br&gt;再模拟一轮,导出Primary flow map（velocity)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FF00;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-457">
           <mxGeometry x="305.86" y="380" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-509" value="对三层flowmap分别后处理&lt;br&gt;（归一化+增强）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-457">
+          <mxGeometry x="305.86" y="490" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
