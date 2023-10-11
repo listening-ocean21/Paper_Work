@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-11T13:56:50.335Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="ig0HFfgNINO17P0Un1qX" version="21.8.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-11T14:06:13.530Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36 Edg/117.0.2045.47" etag="8cCpff4Zr1sxGQkFSFac" version="21.8.2" type="github">
   <diagram name="第 1 页" id="s2snfImjlksssQ3lNaat">
-    <mxGraphModel dx="2031" dy="562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3329" dy="1168" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1204,16 +1204,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7l8nPw5GP7gn8wgr-0gG-477" value="for (i &amp;lt; _FlowMapRainTime; i +=_FlowMapSyncSteps)" style="swimlane;whiteSpace=wrap;html=1;startSize=35;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-457">
-          <mxGeometry x="295.86" y="150" width="210" height="190" as="geometry" />
+          <mxGeometry x="295.86" y="150" width="210" height="160" as="geometry" />
         </mxCell>
         <mxCell id="7l8nPw5GP7gn8wgr-0gG-511" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7l8nPw5GP7gn8wgr-0gG-477" source="7l8nPw5GP7gn8wgr-0gG-478" target="7l8nPw5GP7gn8wgr-0gG-481">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7l8nPw5GP7gn8wgr-0gG-478" value="rain_across_full_layer();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-477">
-          <mxGeometry x="10" y="40" width="190" height="60" as="geometry" />
+          <mxGeometry x="10" y="40" width="190" height="30" as="geometry" />
         </mxCell>
         <mxCell id="7l8nPw5GP7gn8wgr-0gG-481" value="根据指定次数导出Seconary flow map" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FF00;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-477">
-          <mxGeometry x="9.999999999999986" y="130" width="190" height="60" as="geometry" />
+          <mxGeometry x="9.999999999999986" y="90" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7l8nPw5GP7gn8wgr-0gG-479" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.581;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="7l8nPw5GP7gn8wgr-0gG-457" source="7l8nPw5GP7gn8wgr-0gG-469" target="7l8nPw5GP7gn8wgr-0gG-476">
           <mxGeometry relative="1" as="geometry" />
@@ -1222,10 +1222,63 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="7l8nPw5GP7gn8wgr-0gG-506" value="rain_across_full_layer();&lt;br&gt;再模拟一轮,导出Primary flow map（velocity)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#00FF00;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-457">
-          <mxGeometry x="305.86" y="380" width="190" height="60" as="geometry" />
+          <mxGeometry x="305.86" y="330" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7l8nPw5GP7gn8wgr-0gG-509" value="对三层flowmap分别后处理&lt;br&gt;（归一化+增强）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-457">
-          <mxGeometry x="305.86" y="490" width="190" height="60" as="geometry" />
+          <mxGeometry x="305.86" y="420" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-514" value="rain_across_full_layer()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="2960" width="241" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-515" value="for ( tileidx &amp;lt; tile_rect_list.size())" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-514">
+          <mxGeometry x="20" y="37.5" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-516" value="TerrainFlowMapGPU&lt;br&gt;生成单tile的flow_velocity_scale&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-515">
+          <mxGeometry x="10.5" y="32.5" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-517" value="将生成的flow height map和flowmap保存" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-515">
+          <mxGeometry x="10.5" y="108.78999999999996" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-518" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.062;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" edge="1" parent="1" source="7l8nPw5GP7gn8wgr-0gG-478" target="7l8nPw5GP7gn8wgr-0gG-514">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="3050" as="sourcePoint" />
+            <mxPoint x="700" y="3000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-519" value="TerrainFlowMapGPU（）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="2960" width="211" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-534" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="7l8nPw5GP7gn8wgr-0gG-519" source="7l8nPw5GP7gn8wgr-0gG-521">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="111" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-521" value="for (i &amp;lt; _FlowMapSyncSteps)&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-519">
+          <mxGeometry x="11" y="38" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-525" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="7l8nPw5GP7gn8wgr-0gG-521" source="7l8nPw5GP7gn8wgr-0gG-522" target="7l8nPw5GP7gn8wgr-0gG-523">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-522" value="FlowMapRainFall（）&lt;br&gt;通过CS并行生成" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-521">
+          <mxGeometry x="9.27" y="32" width="180" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-526" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="7l8nPw5GP7gn8wgr-0gG-521" source="7l8nPw5GP7gn8wgr-0gG-523" target="7l8nPw5GP7gn8wgr-0gG-524">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-523" value="FlowMapFluxComputation&lt;br&gt;通过CS并行生成flux" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-521">
+          <mxGeometry x="9.269999999999982" y="92" width="180" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-524" value="FlowMapFluxApply&lt;br&gt;通过CS并行更新flowmap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-521">
+          <mxGeometry x="9.269999999999982" y="152" width="180" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-527" value="混合BlendMask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7l8nPw5GP7gn8wgr-0gG-519">
+          <mxGeometry x="15.5" y="262" width="180" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="7l8nPw5GP7gn8wgr-0gG-520" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.003;entryY=0.055;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#FF0000;" edge="1" parent="1" source="7l8nPw5GP7gn8wgr-0gG-516" target="7l8nPw5GP7gn8wgr-0gG-519">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="3059" as="sourcePoint" />
+            <mxPoint x="958" y="2870" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
