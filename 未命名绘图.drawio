@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-20T15:59:05.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="blTjwtSix1yLFdHS-7Ts" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-22T12:56:42.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.46" etag="-nbv4-Txp-LdTOUdQFmd" version="22.0.4" type="github">
   <diagram name="第 1 页" id="s2snfImjlksssQ3lNaat">
     <mxGraphModel dx="1909" dy="607" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -1442,7 +1442,7 @@
         <mxCell id="iGxaf1mWEcw2Vsk75Lyl-45" value="pcg_impl.h" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1001" y="405" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="iGxaf1mWEcw2Vsk75Lyl-46" value="pcg_ui_reload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iGxaf1mWEcw2Vsk75Lyl-45">
+        <mxCell id="iGxaf1mWEcw2Vsk75Lyl-46" value="pcg_ui_reload（context）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="iGxaf1mWEcw2Vsk75Lyl-45">
           <mxGeometry x="40" y="32" width="120" height="36" as="geometry" />
         </mxCell>
         <mxCell id="iGxaf1mWEcw2Vsk75Lyl-47" value="pcg_context.h" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -1483,13 +1483,18 @@
             <mxPoint x="1304" y="456" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iGxaf1mWEcw2Vsk75Lyl-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iGxaf1mWEcw2Vsk75Lyl-56" target="iGxaf1mWEcw2Vsk75Lyl-46">
+        <mxCell id="iGxaf1mWEcw2Vsk75Lyl-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1" source="iGxaf1mWEcw2Vsk75Lyl-56" target="iGxaf1mWEcw2Vsk75Lyl-46">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1644" y="375" />
               <mxPoint x="1021" y="375" />
               <mxPoint x="1021" y="455" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="iGxaf1mWEcw2Vsk75Lyl-68" value="为社么调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="iGxaf1mWEcw2Vsk75Lyl-61">
+          <mxGeometry x="0.0342" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iGxaf1mWEcw2Vsk75Lyl-62" value="pcg_editor.cpp" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
