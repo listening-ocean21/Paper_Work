@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-27T06:11:29.647Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="o2QP3rjk9tkvCY6AdxSi" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-09T10:10:32.517Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36 Edg/122.0.0.0" etag="nINNr8toNE8hfOK1AsH5" version="24.2.0" type="github">
   <diagram name="第 1 页" id="s2snfImjlksssQ3lNaat">
-    <mxGraphModel dx="5046" dy="809" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5849" dy="1258" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1901,30 +1901,42 @@
           <mxGeometry x="-950.5" y="7517" width="3741.5" height="2344" as="geometry" />
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-43" value="Core" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" parent="rjTQv-z2qMQQd01Ghk8a-82" vertex="1">
-          <mxGeometry x="820" y="467" width="2892" height="1095" as="geometry" />
+          <mxGeometry x="613.5" y="457" width="2892" height="1095" as="geometry" />
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-15" value="pcg_impl.inl" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" parent="rjTQv-z2qMQQd01Ghk8a-43" vertex="1">
-          <mxGeometry x="466" y="370" width="463.84" height="233" as="geometry" />
+          <mxGeometry x="466" y="370" width="463.84" height="400" as="geometry" />
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-16" value="&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; --darkreader-inline-color: #ffeec9; --darkreader-inline-bgcolor: #655d4f;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; --darkreader-inline-color: #ffeec9; --darkreader-inline-bgcolor: #655d4f;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; --darkreader-inline-color: #ffeec9; --darkreader-inline-bgcolor: #655d4f;&quot;&gt;&lt;div style=&quot;&quot;&gt;pcg_process_road&lt;span style=&quot;font-weight: normal;&quot;&gt;(&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;font-weight: normal; color: rgb(156, 220, 254); --darkreader-inline-color: #fff2d0;&quot;&gt;pcg_context&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;, &lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;font-weight: normal; color: rgb(156, 220, 254); --darkreader-inline-color: #fff2d0;&quot;&gt;generate_rect&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=54;" parent="rjTQv-z2qMQQd01Ghk8a-15" vertex="1">
-          <mxGeometry x="4" y="35" width="453" height="186" as="geometry" />
+          <mxGeometry x="4" y="35" width="453" height="130" as="geometry" />
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-17" value="&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; --darkreader-inline-color: #ffeec9; --darkreader-inline-bgcolor: #655d4f;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; --darkreader-inline-color: #ffeec9; --darkreader-inline-bgcolor: #655d4f;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; --darkreader-inline-color: #ffeec9; --darkreader-inline-bgcolor: #655d4f;&quot;&gt;as(&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(156, 220, 254); --darkreader-inline-color: #fff2d0;&quot;&gt;pcg_context&lt;/span&gt;)-&amp;gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(220, 220, 170); --darkreader-inline-color: #fffcd1;&quot;&gt;&lt;b&gt;ProcessRoad&lt;/b&gt;&lt;/span&gt;(&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(156, 220, 254); --darkreader-inline-color: #fff2d0;&quot;&gt;generate_rect&lt;/span&gt;);&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="rjTQv-z2qMQQd01Ghk8a-16" vertex="1">
           <mxGeometry x="-1.3199999999999998" y="60" width="434.82" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-29" value="&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(220, 220, 170); --darkreader-inline-color: #8b866d;&quot;&gt;pcg_invoke_host_action&lt;/span&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="rjTQv-z2qMQQd01Ghk8a-15">
+          <mxGeometry x="38.5" y="200" width="390.5" height="99" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-30" value="&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&amp;nbsp;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(220, 220, 170); --darkreader-inline-color: #8b866d;&quot;&gt;as&lt;/span&gt;(&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(156, 220, 254); --darkreader-inline-color: #6f8287;&quot;&gt;context&lt;/span&gt;)-&amp;gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(220, 220, 170); --darkreader-inline-color: #8b866d;&quot;&gt;InvokeHostAction&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rnherrihpT39-atVpZtm-29">
+          <mxGeometry x="35" y="39" width="311" height="43" as="geometry" />
+        </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-5" value="pcg_context.cpp" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" parent="rjTQv-z2qMQQd01Ghk8a-43" vertex="1">
-          <mxGeometry x="1343" y="107" width="390" height="233" as="geometry" />
+          <mxGeometry x="1210" y="94" width="430.5" height="314" as="geometry" />
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-6" value="&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; --darkreader-inline-color: #ffeec9; --darkreader-inline-bgcolor: #655d4f;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; --darkreader-inline-color: #ffeec9; --darkreader-inline-bgcolor: #655d4f;&quot;&gt;ProcessRoad&lt;span style=&quot;font-weight: normal;&quot;&gt;(&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;font-weight: normal; color: rgb(156, 220, 254); --darkreader-inline-color: #fff2d0;&quot;&gt;generate_rect&lt;/span&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=54;" parent="rjTQv-z2qMQQd01Ghk8a-5" vertex="1">
-          <mxGeometry x="10.84" y="34" width="370" height="186" as="geometry" />
+          <mxGeometry x="10.84" y="34" width="370" height="133" as="geometry" />
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-7" value="&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; --darkreader-inline-color: #ffeec9; --darkreader-inline-bgcolor: #655d4f;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; --darkreader-inline-color: #ffeec9; --darkreader-inline-bgcolor: #655d4f;&quot;&gt;Pipeline()&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(220, 220, 170); --darkreader-inline-color: #fffcd1;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(220, 220, 170); --darkreader-inline-color: #fffcd1;&quot;&gt;&lt;b&gt;ProcessRoad&lt;/b&gt;&lt;/span&gt;(&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(156, 220, 254); --darkreader-inline-color: #fff2d0;&quot;&gt;_device&lt;/span&gt;,generate_rect)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="rjTQv-z2qMQQd01Ghk8a-6" vertex="1">
           <mxGeometry x="8" y="61" width="339" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-47" value="&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-weight: normal; line-height: 19px; white-space: pre; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(220, 220, 170); --darkreader-inline-color: #8b866d;&quot;&gt;InvokeHostAction&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=54;" vertex="1" parent="rjTQv-z2qMQQd01Ghk8a-5">
+          <mxGeometry x="9" y="170" width="421.5" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-48" value="&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; white-space: pre; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(156, 220, 254); --darkreader-inline-color: #6f8287;&quot;&gt;_editor&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(220, 220, 170); --darkreader-inline-color: #8b866d;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(220, 220, 170); --darkreader-inline-color: #8b866d;&quot;&gt;InvokeHostAction&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; white-space: pre; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;此时直接调用PCGCoreHandler.cpp中已经注册过的回调函数&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="rnherrihpT39-atVpZtm-47">
+          <mxGeometry x="30.05" y="61" width="368.95" height="72" as="geometry" />
+        </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-40" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.127;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=12;startSize=8;endSize=8;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="rjTQv-z2qMQQd01Ghk8a-43" source="rjTQv-z2qMQQd01Ghk8a-17" target="rjTQv-z2qMQQd01Ghk8a-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="rjTQv-z2qMQQd01Ghk8a-41" value="&lt;i data-darkreader-inline-border=&quot;&quot; style=&quot;border-color: var(--darkreader-border--border-color); --darkreader-inline-border: var(--darkreader-border--darkreader-border--border-color);&quot;&gt;pcg_context&lt;/i&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="rjTQv-z2qMQQd01Ghk8a-40" vertex="1" connectable="0">
+        <mxCell id="rjTQv-z2qMQQd01Ghk8a-41" value="&lt;i data-darkreader-inline-border=&quot;&quot; style=&quot;border-color: var(--darkreader-border--border-color); --darkreader-inline-border: var(--darkreader-border--darkreader-border--border-color);&quot;&gt;1：pcg_context&lt;/i&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="rjTQv-z2qMQQd01Ghk8a-40" vertex="1" connectable="0">
           <mxGeometry x="-0.1218" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -1966,7 +1978,7 @@
           <mxGeometry x="9.999999999999947" y="117" width="346.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-33" value="客户端" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" parent="rjTQv-z2qMQQd01Ghk8a-43" vertex="1">
-          <mxGeometry x="1154" y="425" width="474" height="368" as="geometry" />
+          <mxGeometry x="1219.5" y="571" width="474" height="551" as="geometry" />
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-12" value="pcg_client_context.cpp" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" parent="rjTQv-z2qMQQd01Ghk8a-33" vertex="1">
           <mxGeometry x="35" y="50" width="390" height="307" as="geometry" />
@@ -1982,6 +1994,12 @@
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-196" value="&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; --darkreader-inline-color: #d0c8ba; --darkreader-inline-bgcolor: #1f1f1e;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; --darkreader-inline-color: #d0c8ba; --darkreader-inline-bgcolor: #1f1f1e;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;pcg_rpc_sync（pcg_initialize&lt;span data-darkreader-inline-color=&quot;&quot; data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: rgb(31, 31, 31); color: rgb(204, 204, 204); --darkreader-inline-bgcolor: #1f1f1e; --darkreader-inline-color: #d0c8ba;&quot;&gt;）&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;客户端向服务器发送消息&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="rjTQv-z2qMQQd01Ghk8a-195" vertex="1">
           <mxGeometry x="30.05" y="61" width="316.95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-40" value="&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-weight: normal; line-height: 19px; white-space: pre; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(220, 220, 170); --darkreader-inline-color: #8b866d;&quot;&gt;InvokeHostAction&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=54;" vertex="1" parent="rjTQv-z2qMQQd01Ghk8a-33">
+          <mxGeometry x="32.5" y="382" width="421.5" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-41" value="&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; white-space: pre; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;(&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(156, 220, 254); --darkreader-inline-color: #6f8287;&quot;&gt;it&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(220, 220, 170); --darkreader-inline-color: #8b866d;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(156, 220, 254); --darkreader-inline-color: #6f8287;&quot;&gt;second&lt;/span&gt;)(&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(156, 220, 254); --darkreader-inline-color: #6f8287;&quot;&gt;arg_buffer&lt;/span&gt;, &lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(156, 220, 254); --darkreader-inline-color: #6f8287;&quot;&gt;arg_buffer_length&lt;/span&gt;);&lt;/div&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; white-space: pre; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;此时直接调用PCGCoreHandler.cpp中已经注册过的回调函数&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="rnherrihpT39-atVpZtm-40">
+          <mxGeometry x="30.05" y="61" width="368.95" height="72" as="geometry" />
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-174" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;dashed=1;" parent="rjTQv-z2qMQQd01Ghk8a-43" source="rjTQv-z2qMQQd01Ghk8a-17" target="rjTQv-z2qMQQd01Ghk8a-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2055,7 +2073,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rjTQv-z2qMQQd01Ghk8a-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="rjTQv-z2qMQQd01Ghk8a-43" target="rjTQv-z2qMQQd01Ghk8a-34" edge="1">
+        <mxCell id="rjTQv-z2qMQQd01Ghk8a-31" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;dashed=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="rjTQv-z2qMQQd01Ghk8a-43" target="rjTQv-z2qMQQd01Ghk8a-34" edge="1" source="rjTQv-z2qMQQd01Ghk8a-195">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1628" y="533" as="sourcePoint" />
             <mxPoint x="1907" y="528" as="targetPoint" />
@@ -2073,13 +2091,24 @@
             <Array as="points">
               <mxPoint x="2534" y="196" />
               <mxPoint x="2074" y="12" />
-              <mxPoint x="1145" y="91" />
+              <mxPoint x="818.5" y="56" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-178" value="&lt;b&gt;pcg_context&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=16;" parent="rjTQv-z2qMQQd01Ghk8a-176" vertex="1" connectable="0">
           <mxGeometry x="-0.6708" y="47" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;entryX=-0.009;entryY=0.321;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="rjTQv-z2qMQQd01Ghk8a-43" source="rnherrihpT39-atVpZtm-30" target="rnherrihpT39-atVpZtm-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1216.5" y="555" as="sourcePoint" />
+            <mxPoint x="1337.5" y="331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-44" value="&lt;i style=&quot;border-color: var(--darkreader-border--border-color); font-size: 16px; --darkreader-inline-border: var(--darkreader-border--darkreader-border--border-color);&quot; data-darkreader-inline-border=&quot;&quot;&gt;pcg_context&lt;/i&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rnherrihpT39-atVpZtm-43">
+          <mxGeometry x="-0.1226" relative="1" as="geometry">
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-83" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;fontSize=12;startSize=8;endSize=8;" parent="rjTQv-z2qMQQd01Ghk8a-82" edge="1">
@@ -2105,10 +2134,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-182" value="Lua" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" parent="rjTQv-z2qMQQd01Ghk8a-82" vertex="1">
-          <mxGeometry x="15" y="1644" width="818" height="647" as="geometry" />
+          <mxGeometry x="22.5" y="1625" width="818" height="647" as="geometry" />
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-142" value="pcg_data.lua使用&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; font-weight: normal; color: rgb(220, 220, 170); --darkreader-inline-color: #e0dab0;&quot;&gt;pcg_core.lua声明的结构体和函数&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=53;" parent="rjTQv-z2qMQQd01Ghk8a-182" vertex="1">
-          <mxGeometry x="32.339999999999975" y="25" width="287" height="544" as="geometry" />
+          <mxGeometry x="32.34" y="25" width="287" height="240" as="geometry" />
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-154" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;startSize=8;endSize=8;" parent="rjTQv-z2qMQQd01Ghk8a-142" source="rjTQv-z2qMQQd01Ghk8a-143" target="rjTQv-z2qMQQd01Ghk8a-144" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2120,7 +2149,7 @@
           <mxGeometry x="25" y="164" width="231.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-51" value="pcg_core.lua使用ffi&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; font-weight: normal; color: rgb(220, 220, 170); --darkreader-inline-color: #e0dab0;&quot;&gt;cdef声明结构体和函数&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=53;" parent="rjTQv-z2qMQQd01Ghk8a-182" vertex="1">
-          <mxGeometry x="343" y="32" width="382" height="547" as="geometry" />
+          <mxGeometry x="343" y="32" width="382" height="250" as="geometry" />
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-52" value="&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; --darkreader-inline-color: #ffeec9; --darkreader-inline-bgcolor: #655d4f;&quot;&gt;pcg_process_road&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(212, 212, 212); --darkreader-inline-color: #fff2cd;&quot;&gt;(&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(156, 220, 254); --darkreader-inline-color: #fff2d0;&quot;&gt;pcg_context&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(212, 212, 212); --darkreader-inline-color: #fff2cd;&quot;&gt;, &lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(156, 220, 254); --darkreader-inline-color: #fff2d0;&quot;&gt;generate_rect&lt;/span&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(212, 212, 212); --darkreader-inline-color: #fff2cd;&quot;&gt;);&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" parent="rjTQv-z2qMQQd01Ghk8a-51" vertex="1">
           <mxGeometry x="12.33" y="89" width="349.67" height="60" as="geometry" />
@@ -2129,6 +2158,24 @@
           <mxGeometry x="14.5" y="164" width="346.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-147" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="rjTQv-z2qMQQd01Ghk8a-182" source="rjTQv-z2qMQQd01Ghk8a-144" target="rjTQv-z2qMQQd01Ghk8a-145" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-31" value="pcg_ui_layer_edit_biome.lua" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="rjTQv-z2qMQQd01Ghk8a-182">
+          <mxGeometry x="15" y="374" width="281" height="237" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-32" value="&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(220, 220, 170); --darkreader-inline-color: #8b866d;&quot;&gt;c2h_invoke&lt;/span&gt;(&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(206, 145, 120); --darkreader-inline-color: #7a6556;&quot;&gt;&quot;start_edit_terrain_layer&quot;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rnherrihpT39-atVpZtm-31">
+          <mxGeometry x="19" y="37" width="246" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-33" value="pcg_host_actions.lua" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="rjTQv-z2qMQQd01Ghk8a-182">
+          <mxGeometry x="393.5" y="374" width="281" height="242" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-35" value="&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-weight: normal; font-size: 14px; line-height: 19px; white-space: pre; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(220, 220, 170); --darkreader-inline-color: #8b866d;&quot;&gt;c2h_invoke&lt;/span&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="rnherrihpT39-atVpZtm-33">
+          <mxGeometry x="13" y="42" width="258" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-36" value="&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(156, 220, 254); --darkreader-inline-color: #6f8287;&quot;&gt;ffi&lt;/span&gt;.&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(78, 201, 176); --darkreader-inline-color: #5b7a6c;&quot;&gt;C&lt;/span&gt;.&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(220, 220, 170); --darkreader-inline-color: #8b866d;&quot;&gt;pcg_invoke_host_action&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rnherrihpT39-atVpZtm-35">
+          <mxGeometry x="17" y="33" width="234" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="rjTQv-z2qMQQd01Ghk8a-182" source="rnherrihpT39-atVpZtm-32" target="rnherrihpT39-atVpZtm-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-186" value="pcg_client.cpp" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" parent="rjTQv-z2qMQQd01Ghk8a-82" vertex="1">
@@ -2142,6 +2189,23 @@
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-381" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;" parent="rjTQv-z2qMQQd01Ghk8a-82" source="rjTQv-z2qMQQd01Ghk8a-189" target="rjTQv-z2qMQQd01Ghk8a-195" edge="1">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="rjTQv-z2qMQQd01Ghk8a-82" source="rnherrihpT39-atVpZtm-36" target="rnherrihpT39-atVpZtm-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-39" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;c2h_invoke：pcg_context&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rnherrihpT39-atVpZtm-38">
+          <mxGeometry x="0.0934" relative="1" as="geometry">
+            <mxPoint x="1" y="34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-49" value="pcg_editor.cpp" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="rjTQv-z2qMQQd01Ghk8a-82">
+          <mxGeometry x="2194.5" y="133" width="430.5" height="314" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-52" value="&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-weight: normal; line-height: 19px; white-space: pre; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(220, 220, 170); --darkreader-inline-color: #8b866d;&quot;&gt;InvokeHostAction&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;fontSize=16;startSize=54;" vertex="1" parent="rnherrihpT39-atVpZtm-49">
+          <mxGeometry x="9" y="32" width="421.5" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-53" value="&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; white-space: pre; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(156, 220, 254); --darkreader-inline-color: #6f8287;&quot;&gt;_action_handler&lt;/span&gt;(&lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(156, 220, 254); --darkreader-inline-color: #6f8287;&quot;&gt;action_name&lt;/span&gt;, &lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(156, 220, 254); --darkreader-inline-color: #6f8287;&quot;&gt;buffer&lt;/span&gt;, &lt;span data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(156, 220, 254); --darkreader-inline-color: #6f8287;&quot;&gt;length&lt;/span&gt;)&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; white-space: pre; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;此时直接调用InitializeContext时&lt;/div&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; white-space: pre; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;pcg_register_host_action_handler注册的core_to_host,&lt;/div&gt;&lt;div data-darkreader-inline-bgcolor=&quot;&quot; data-darkreader-inline-color=&quot;&quot; style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); line-height: 19px; white-space: pre; --darkreader-inline-color: #827c72; --darkreader-inline-bgcolor: #1c1b1a;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="rnherrihpT39-atVpZtm-52">
+          <mxGeometry x="30.05" y="61" width="368.95" height="72" as="geometry" />
         </mxCell>
         <mxCell id="rjTQv-z2qMQQd01Ghk8a-180" style="edgeStyle=none;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;fontSize=12;startSize=8;endSize=8;dashed=1;" parent="1" source="rjTQv-z2qMQQd01Ghk8a-79" target="rjTQv-z2qMQQd01Ghk8a-49" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2761,8 +2825,79 @@
         <mxCell id="pE8lxPvGc2zxInkk-Uy_-64" value="IndexToReadbackTex" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-3205" y="13328.5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="jrBUZi9lDKl6hjGr_PfG-2" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-2796" y="13030" width="40" height="26" as="geometry" />
+        <mxCell id="rnherrihpT39-atVpZtm-1" value="ss" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-2796.199951171875" y="5804.39990234375" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-2" value="" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="-2982" y="5722" width="140" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-3" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2674.4000244140625" y="8530.599609375" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-4" value="服务端异步处理" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3017" y="13463" width="645" height="338" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-17" value="IO线程" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="rnherrihpT39-atVpZtm-4">
+          <mxGeometry x="20" y="66" width="326" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-9" value="拆包解包" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rnherrihpT39-atVpZtm-17">
+          <mxGeometry x="24" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-10" value="解码并反序列化" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rnherrihpT39-atVpZtm-17">
+          <mxGeometry x="200" y="69.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="rnherrihpT39-atVpZtm-17" source="rnherrihpT39-atVpZtm-9" target="rnherrihpT39-atVpZtm-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-15" value="完整消息" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rnherrihpT39-atVpZtm-11">
+          <mxGeometry x="-0.1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-18" value="业务线程池（耗时）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="rnherrihpT39-atVpZtm-4">
+          <mxGeometry x="438" y="66" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-12" value="反射执行业务逻辑·" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rnherrihpT39-atVpZtm-18">
+          <mxGeometry x="29.5" y="69.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="rnherrihpT39-atVpZtm-4" source="rnherrihpT39-atVpZtm-10" target="rnherrihpT39-atVpZtm-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-14" value="人参参数" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rnherrihpT39-atVpZtm-13">
+          <mxGeometry x="-0.3556" y="3" relative="1" as="geometry">
+            <mxPoint x="9" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rnherrihpT39-atVpZtm-22" target="rnherrihpT39-atVpZtm-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3274" y="13607" as="sourcePoint" />
+            <mxPoint x="-3144" y="13632" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-6" value="接受请求RPC" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rnherrihpT39-atVpZtm-5">
+          <mxGeometry x="-0.2046" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-21" value="调用端异步" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-3377" y="13463" width="243" height="329" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-22" value="结合上下文获取Feature" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="rnherrihpT39-atVpZtm-21">
+          <mxGeometry x="52" y="135.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.422;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="rnherrihpT39-atVpZtm-18" target="rnherrihpT39-atVpZtm-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-3228.466634114583" y="13700.732828776041" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-2479" y="13760" />
+              <mxPoint x="-3274" y="13760" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rnherrihpT39-atVpZtm-25" value="回调异步返回结果" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rnherrihpT39-atVpZtm-24">
+          <mxGeometry x="-0.0678" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
