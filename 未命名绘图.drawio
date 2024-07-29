@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-29T07:49:09.122Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="Nb5qOHYI433Cx4mRCO1a" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-29T09:13:00.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="M83cJMimX4RjO4aNkvX8" version="24.7.1" type="github">
   <diagram name="第 1 页" id="s2snfImjlksssQ3lNaat">
-    <mxGraphModel dx="5826" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="7252" dy="1498" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2900,7 +2900,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-1" value="雷火映画（服务端）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2554.4" y="13886" width="1518.4" height="591" as="geometry" />
+          <mxGeometry x="-2292" y="13884" width="1518.4" height="591" as="geometry" />
         </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-16" value="具体响应RPC" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-1">
           <mxGeometry x="27" y="68" width="241.4" height="230.5" as="geometry" />
@@ -3018,7 +3018,7 @@
           <mxGeometry x="37.75" y="39.5" width="367.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-74" value="ProtocolCallback" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-2">
-          <mxGeometry x="340" y="375" width="339" height="564" as="geometry" />
+          <mxGeometry x="340" y="375" width="339" height="245" as="geometry" />
         </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-11" value="OnInvokeDynamicTypeMethod" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-74">
           <mxGeometry x="28" y="40" width="264" height="62" as="geometry" />
@@ -3041,10 +3041,12 @@
         <mxCell id="tMtuOeH21qkzhSjJbffw-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fa6800;strokeColor=#C73500;dashed=1;dashPattern=8 8;jumpSize=15;strokeWidth=5;" edge="1" parent="1" source="tMtuOeH21qkzhSjJbffw-60" target="tMtuOeH21qkzhSjJbffw-13">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1132" y="14052" />
-              <mxPoint x="-1132" y="13824" />
+              <mxPoint x="-890" y="14052" />
+              <mxPoint x="-880" y="14052" />
+              <mxPoint x="-880" y="13824" />
               <mxPoint x="-3717" y="13824" />
               <mxPoint x="-3717" y="14066" />
+              <mxPoint x="-4178" y="14066" />
             </Array>
           </mxGeometry>
         </mxCell>
