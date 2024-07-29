@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-29T07:38:58.062Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="-AHWeNtUHtHxnHO0IEQc" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-29T07:49:09.122Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="Nb5qOHYI433Cx4mRCO1a" version="24.7.1" type="github">
   <diagram name="第 1 页" id="s2snfImjlksssQ3lNaat">
-    <mxGraphModel dx="6852" dy="1498" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5826" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2963,28 +2963,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-2" value="游戏（客户端）" style="swimlane;whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-3726" y="13890" width="1083" height="767" as="geometry" />
-        </mxCell>
-        <mxCell id="tMtuOeH21qkzhSjJbffw-11" value="OnInvokeDynamicTypeMethod" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-2">
-          <mxGeometry x="383" y="334" width="513" height="280" as="geometry" />
-        </mxCell>
-        <mxCell id="tMtuOeH21qkzhSjJbffw-9" value="OnInvokeDynamicTypeMethod" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-11">
-          <mxGeometry x="8" y="37" width="476" height="209" as="geometry" />
-        </mxCell>
-        <mxCell id="tMtuOeH21qkzhSjJbffw-3" value="MainConsoleInvokeDynamicTypeMethod" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-9">
-          <mxGeometry x="33" y="42" width="443" height="159" as="geometry" />
-        </mxCell>
-        <mxCell id="tMtuOeH21qkzhSjJbffw-4" value="SendMergeDynamicTypeValue" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-3">
-          <mxGeometry x="11.5" y="35" width="420" height="101" as="geometry" />
-        </mxCell>
-        <mxCell id="tMtuOeH21qkzhSjJbffw-8" value="SendRpc(RpcFromEngine.RpcEngineChangeDynamicTypeValue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-4">
-          <mxGeometry x="30.5" y="33" width="367.5" height="60" as="geometry" />
+          <mxGeometry x="-4210" y="13890" width="1797" height="917" as="geometry" />
         </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-12" value="具体RPC" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-2">
-          <mxGeometry x="-5" y="386" width="228" height="200" as="geometry" />
+          <mxGeometry x="18" y="387" width="228" height="200" as="geometry" />
         </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-13" value="RpcInvokeDynamicTypeMethod" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-12">
           <mxGeometry x="14.5" y="28" width="202.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMtuOeH21qkzhSjJbffw-68" value="RpcLhyhChangeDynamicTypeValue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-12">
+          <mxGeometry x="14.5" y="92" width="202.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#fa6800;strokeColor=#C73500;dashed=1;dashPattern=8 8;" edge="1" parent="tMtuOeH21qkzhSjJbffw-2" source="tMtuOeH21qkzhSjJbffw-13" target="tMtuOeH21qkzhSjJbffw-11">
           <mxGeometry relative="1" as="geometry">
@@ -3000,13 +2988,52 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-63" value="DynamicTypeRPCUtility" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-2">
-          <mxGeometry x="412" y="33" width="359" height="138" as="geometry" />
+          <mxGeometry x="761" y="52" width="838" height="605" as="geometry" />
         </mxCell>
-        <mxCell id="tMtuOeH21qkzhSjJbffw-64" value="SendRpc" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-63">
+        <mxCell id="tMtuOeH21qkzhSjJbffw-64" value="SendRpc" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FF426E;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-63">
           <mxGeometry x="5" y="34" width="354" height="92" as="geometry" />
         </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-65" value="&lt;span data-darkreader-inline-bgcolor=&quot;&quot; style=&quot;background-color: rgb(255, 45, 38); --darkreader-inline-bgcolor: #531c18;&quot;&gt;SendRpc(RpcFromEngine.RpcSyncDynamicTypeDatas, syncDatas);&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-64">
           <mxGeometry x="15.5" y="34" width="319" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="tMtuOeH21qkzhSjJbffw-9" value="OnInvokeDynamicTypeMethod" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-63">
+          <mxGeometry x="5" y="137" width="476" height="209" as="geometry" />
+        </mxCell>
+        <mxCell id="tMtuOeH21qkzhSjJbffw-3" value="MainConsoleInvokeDynamicTypeMethod" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-9">
+          <mxGeometry x="33" y="42" width="443" height="159" as="geometry" />
+        </mxCell>
+        <mxCell id="tMtuOeH21qkzhSjJbffw-4" value="SendMergeDynamicTypeValue" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-3">
+          <mxGeometry x="11.5" y="35" width="420" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="tMtuOeH21qkzhSjJbffw-8" value="SendRpc(RpcFromEngine.RpcEngineChangeDynamicTypeValue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-4">
+          <mxGeometry x="30.5" y="33" width="367.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMtuOeH21qkzhSjJbffw-70" value="OnInvokeDynamicTypeMethod" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-63">
+          <mxGeometry x="18" y="368" width="476" height="169" as="geometry" />
+        </mxCell>
+        <mxCell id="tMtuOeH21qkzhSjJbffw-71" value="OnLhyhChangeMainConsoleDynamicTypeValue" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-70">
+          <mxGeometry x="33" y="42" width="443" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="tMtuOeH21qkzhSjJbffw-73" value="结束更新值&lt;div&gt;FillData(item, dynamicTypeValue);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-71">
+          <mxGeometry x="37.75" y="39.5" width="367.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="tMtuOeH21qkzhSjJbffw-74" value="ProtocolCallback" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-2">
+          <mxGeometry x="340" y="375" width="339" height="564" as="geometry" />
+        </mxCell>
+        <mxCell id="tMtuOeH21qkzhSjJbffw-11" value="OnInvokeDynamicTypeMethod" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-74">
+          <mxGeometry x="28" y="40" width="264" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="tMtuOeH21qkzhSjJbffw-69" value="OnLhyhChangeDynamicTypeValue" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-74">
+          <mxGeometry x="28" y="126.5" width="263" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="tMtuOeH21qkzhSjJbffw-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.064;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fa6800;strokeColor=#C73500;dashed=1;" edge="1" parent="tMtuOeH21qkzhSjJbffw-2" source="tMtuOeH21qkzhSjJbffw-11" target="tMtuOeH21qkzhSjJbffw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tMtuOeH21qkzhSjJbffw-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tMtuOeH21qkzhSjJbffw-2" source="tMtuOeH21qkzhSjJbffw-69" target="tMtuOeH21qkzhSjJbffw-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="tMtuOeH21qkzhSjJbffw-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="tMtuOeH21qkzhSjJbffw-2" source="tMtuOeH21qkzhSjJbffw-68" target="tMtuOeH21qkzhSjJbffw-69">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#fa6800;strokeColor=#C73500;dashed=1;" edge="1" parent="1" source="tMtuOeH21qkzhSjJbffw-8" target="tMtuOeH21qkzhSjJbffw-17">
           <mxGeometry relative="1" as="geometry" />
