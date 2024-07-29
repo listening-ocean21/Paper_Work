@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-07-29T09:13:00.343Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="M83cJMimX4RjO4aNkvX8" version="24.7.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-07-29T09:32:36.565Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0" etag="X0KyiN2b3245vg10lD-2" version="24.7.1" type="github">
   <diagram name="第 1 页" id="s2snfImjlksssQ3lNaat">
-    <mxGraphModel dx="7252" dy="1498" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5826" dy="749" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -2939,13 +2939,16 @@
           <mxGeometry x="23.5" y="32" width="307" height="43" as="geometry" />
         </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-56" value="OnSyncDynamicTypeData" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-24">
-          <mxGeometry x="12" y="44" width="373" height="83" as="geometry" />
+          <mxGeometry x="12" y="44" width="373" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="tMtuOeH21qkzhSjJbffw-57" value="&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&lt;/span&gt;DynamicTypeUtility.SetInvokeMethod(InvokeMethod);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&lt;/span&gt;CreateDynamicTypeData(protoSyncDynamicTypeData);&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&lt;/span&gt;OnDynamicTypeSync?.Invoke();&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-56">
-          <mxGeometry x="8.4" y="32" width="358.5" height="43" as="geometry" />
+        <mxCell id="tMtuOeH21qkzhSjJbffw-57" value="&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&#x9;&lt;/span&gt;DynamicTypeUtility.SetInvokeMethod(InvokeMethod);&lt;/span&gt;&lt;span style=&quot;background-color: initial; white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-56">
+          <mxGeometry x="25" y="32" width="341.9" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="tMtuOeH21qkzhSjJbffw-78" value="&lt;div&gt;CreateDynamicTypeData(protoSyncDynamicTypeData);&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&#x9;&lt;/span&gt;OnDynamicTypeSync?.Invoke();&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-56">
+          <mxGeometry x="25" y="68" width="343" height="45" as="geometry" />
         </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-10" value="InvokeMethod" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-24">
-          <mxGeometry x="473.4000000000001" y="31" width="231" height="200" as="geometry" />
+          <mxGeometry x="473.4" y="31" width="231" height="114" as="geometry" />
         </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-60" value="封装一个RPC请求方法：SetInvokeDynamicTypeMethodData；&lt;div&gt;内部方法RpcInvokeDynamicTypeMethod&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-10">
           <mxGeometry x="10" y="40" width="207" height="60" as="geometry" />
@@ -2953,10 +2956,16 @@
         <mxCell id="tMtuOeH21qkzhSjJbffw-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.012;entryY=0.079;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fa6800;strokeColor=#C73500;" edge="1" parent="tMtuOeH21qkzhSjJbffw-24" source="tMtuOeH21qkzhSjJbffw-57" target="tMtuOeH21qkzhSjJbffw-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="tMtuOeH21qkzhSjJbffw-79" value="InvokeMethod" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-24">
+          <mxGeometry x="473.4000000000001" y="154" width="231" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="tMtuOeH21qkzhSjJbffw-80" value="封装一个RPC请求方法：SetInvokeDynamicTypeMethodData；&lt;div&gt;内部方法RpcInvokeDynamicTypeMethod&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-79">
+          <mxGeometry x="10" y="40" width="207" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.008;entryY=0.136;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fa6800;strokeColor=#C73500;dashed=1;" edge="1" parent="tMtuOeH21qkzhSjJbffw-1" source="tMtuOeH21qkzhSjJbffw-23" target="tMtuOeH21qkzhSjJbffw-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="tMtuOeH21qkzhSjJbffw-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tMtuOeH21qkzhSjJbffw-1" source="tMtuOeH21qkzhSjJbffw-55" target="tMtuOeH21qkzhSjJbffw-56">
+        <mxCell id="tMtuOeH21qkzhSjJbffw-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fa6800;strokeColor=#C73500;" edge="1" parent="tMtuOeH21qkzhSjJbffw-1" source="tMtuOeH21qkzhSjJbffw-55" target="tMtuOeH21qkzhSjJbffw-56">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.123;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#fa6800;strokeColor=#C73500;" edge="1" parent="tMtuOeH21qkzhSjJbffw-1" source="tMtuOeH21qkzhSjJbffw-40" target="tMtuOeH21qkzhSjJbffw-54">
@@ -3009,7 +3018,7 @@
           <mxGeometry x="30.5" y="33" width="367.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-70" value="OnInvokeDynamicTypeMethod" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-63">
-          <mxGeometry x="18" y="368" width="476" height="169" as="geometry" />
+          <mxGeometry x="12" y="430" width="476" height="169" as="geometry" />
         </mxCell>
         <mxCell id="tMtuOeH21qkzhSjJbffw-71" value="OnLhyhChangeMainConsoleDynamicTypeValue" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="tMtuOeH21qkzhSjJbffw-70">
           <mxGeometry x="33" y="42" width="443" height="114" as="geometry" />
@@ -3042,11 +3051,10 @@
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="-890" y="14052" />
-              <mxPoint x="-880" y="14052" />
-              <mxPoint x="-880" y="13824" />
-              <mxPoint x="-3717" y="13824" />
-              <mxPoint x="-3717" y="14066" />
-              <mxPoint x="-4178" y="14066" />
+              <mxPoint x="-838" y="14052" />
+              <mxPoint x="-838" y="13824" />
+              <mxPoint x="-4352" y="13824" />
+              <mxPoint x="-4352" y="14335" />
             </Array>
           </mxGeometry>
         </mxCell>
