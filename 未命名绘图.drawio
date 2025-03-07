@@ -3602,7 +3602,7 @@
         <mxCell id="0biHZN4C3_d4LbFX7kYq-128" value="会为RpcToEngine类的函数注册函数&lt;div&gt;Register(RequestOpenView.Parser,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;LhyhRpcProtocols.RpcToEngine.RpcRequestOpenView,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;OnRPCRequestOpenView);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-127">
           <mxGeometry x="40" y="40" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-129" value="会为RpcToEngine类的函数注册函数&lt;div&gt;Register(RequestOpenView.Parser,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;LhyhRpcProtocols.RpcToEngine.RpcRequestOpenView,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;OnRPCRequestOpenView);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-127">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-129" value="直接使用RpcFromEngine的&lt;div&gt;LhyhRpcProtocols.RpcFromEngine.RpcHello&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-127">
           <mxGeometry x="40" y="110" width="370" height="60" as="geometry" />
         </mxCell>
       </root>
