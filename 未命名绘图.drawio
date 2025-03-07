@@ -3577,10 +3577,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-120" value="LhyhAllRpcProtocols.Release.cs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="2400" width="730" height="390" as="geometry" />
+          <mxGeometry x="170" y="2400" width="730" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-120" source="0biHZN4C3_d4LbFX7kYq-121" target="0biHZN4C3_d4LbFX7kYq-127">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-132" value="Game端手动生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-130">
+          <mxGeometry x="0.0315" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-121" value="LhyhRpcProtocols/&lt;div&gt;RpcFromEngine/&lt;/div&gt;&lt;div&gt;RpcToEngine&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-120">
-          <mxGeometry x="20" y="95" width="120" height="60" as="geometry" />
+          <mxGeometry x="20" y="190" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-124" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;\lhyh\program\lhyh\src\engine\Lhyh\Services/GameService.Rpc.cs&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-120">
           <mxGeometry x="260" y="50" width="470" height="110" as="geometry" />
@@ -3591,8 +3599,8 @@
         <mxCell id="0biHZN4C3_d4LbFX7kYq-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.107;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-120" source="0biHZN4C3_d4LbFX7kYq-121" target="0biHZN4C3_d4LbFX7kYq-124">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-126" value="手动生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-125">
-          <mxGeometry x="-0.7246" y="5" relative="1" as="geometry">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-131" value="Lhyh端手动生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-125">
+          <mxGeometry x="0.0054" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -3602,7 +3610,7 @@
         <mxCell id="0biHZN4C3_d4LbFX7kYq-128" value="会为RpcToEngine类的函数注册函数&lt;div&gt;Register(RequestOpenView.Parser,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;LhyhRpcProtocols.RpcToEngine.RpcRequestOpenView,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;OnRPCRequestOpenView);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-127">
           <mxGeometry x="40" y="40" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-129" value="直接使用RpcFromEngine的&lt;div&gt;LhyhRpcProtocols.RpcFromEngine.RpcHello&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-127">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-129" value="直接使用RpcFromEngine的&lt;div&gt;SendRpc(LhyhRpcProtocols.RpcFromEngine.RpcHello, info)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-127">
           <mxGeometry x="40" y="110" width="370" height="60" as="geometry" />
         </mxCell>
       </root>
