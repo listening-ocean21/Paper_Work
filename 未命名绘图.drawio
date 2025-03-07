@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="1043" dy="1722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1252" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3313,7 +3313,19 @@
           <mxGeometry x="15" y="40" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-17" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;ServiceManager.Instance.Register(new ChildProcessManager());&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;XQ28\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;|linespacing:\&amp;quot;115\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 115%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;ServiceManager.Instance.Register(new RpcService());&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-15">
-          <mxGeometry x="15" y="120" width="300" height="60" as="geometry" />
+          <mxGeometry x="15" y="170" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-18" value="ChildProcessManager（进程管理类）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="190" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-19" value="AddProcess" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-18">
+          <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-20" value="Dispose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-18">
+          <mxGeometry x="30" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0biHZN4C3_d4LbFX7kYq-16" target="0biHZN4C3_d4LbFX7kYq-18">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
