@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="3127" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3741" dy="2274" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3420,8 +3420,11 @@
         <mxCell id="0biHZN4C3_d4LbFX7kYq-52" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;ServiceManager.Instance.Register(new ChildProcessManager());&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;XQ28\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;|linespacing:\&amp;quot;115\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 115%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;ServiceManager.Instance.Startup();会遍历启动以上注册的服务的startup&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-54">
           <mxGeometry x="20" y="320" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-59" value="GameService（游戏相关类）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1690" y="500" width="250" height="230" as="geometry" />
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-81" value="GameService相关服务" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1810" y="500" width="1940" height="730" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-59" value="GameService（游戏相关类）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-81">
+          <mxGeometry x="50" y="100" width="250" height="230" as="geometry" />
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-62" value="Startup" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-59">
           <mxGeometry x="10" y="40" width="240" height="120" as="geometry" />
@@ -3429,25 +3432,36 @@
         <mxCell id="0biHZN4C3_d4LbFX7kYq-65" value="_BindHandler（回对游戏响应信息做回调）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-62">
           <mxGeometry x="10" y="30" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-66" value="GameService.Rpc.Gen.cs（会自动生成）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1990" y="540" width="720" height="120" as="geometry" />
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-78" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;InitializeRpcData&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;InitializeRpcData&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-62">
+          <mxGeometry x="10" y="70" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-66" value="GameService.Rpc.Gen.cs（会自动生成）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-81">
+          <mxGeometry x="360" y="120" width="1270" height="420" as="geometry" />
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-67" value="this.WhenAnyValue(v =&amp;gt; v.ResponseGetActorPreview).Where(v =&amp;gt; v != null).Subscribe(v =&amp;gt; _OnGetActorPreview(v!.ProtoData));" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-66">
           <mxGeometry x="20" y="30" width="440" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-68" value="_OnGetActorPreview（）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2510" y="710" width="310" height="200" as="geometry" />
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-68" value="_OnGetActorPreview（）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-66">
+          <mxGeometry x="510" y="190" width="310" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-69" value="触发回调函数（异步请求机制） _cbGetActorPreview.TriggerCallback(res.RpcId, res.Data);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-68">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-69" value="触发回调函数（异步请求机制）&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;_cbGetActorPreview是个&lt;/span&gt;&lt;span style=&quot;font-weight: 700; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 0));&quot;&gt;RpcCallbackContainer类&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;_cbGetActorPreview.TriggerCallback(res.RpcId, res.Data);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-68">
           <mxGeometry x="10" y="40" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-70" value="Task&amp;lt;ByteString&amp;gt; GetActorPreview(string actorId)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2880" y="710" width="340" height="200" as="geometry" />
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-66" source="0biHZN4C3_d4LbFX7kYq-67" target="0biHZN4C3_d4LbFX7kYq-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-76" value="请求后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-75">
+          <mxGeometry x="0.2544" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-70" value="Task&amp;lt;ByteString&amp;gt; GetActorPreview(string actorId)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-66">
+          <mxGeometry x="870" y="190" width="340" height="200" as="geometry" />
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-71" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return _cbGetActorPreview.AddCallback((rpcId) =&amp;gt; ReqGetActorPreview = new RpcRequestArgs&amp;lt;RequestGetActorPreview&amp;gt;(&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;);在构建&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ReqGetActorPreview&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;成功后，会触发&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RPC请求，等到游戏端&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ResponseGetActorPreview&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-70">
           <mxGeometry x="15" y="30" width="300" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="0biHZN4C3_d4LbFX7kYq-71" target="0biHZN4C3_d4LbFX7kYq-67">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-66" source="0biHZN4C3_d4LbFX7kYq-71" target="0biHZN4C3_d4LbFX7kYq-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-74" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 12, 54));&quot;&gt;发送请求，会返回&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(27, 29, 30);&quot;&gt;ResponseGetActorPreview，调用&lt;/span&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(27, 29, 30);&quot;&gt;_cbGetActorPreview的回掉函数，以及&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 12px; font-weight: 700; text-wrap-mode: wrap; background-color: rgb(27, 29, 30);&quot;&gt;GetActorPreview()返回对应数据&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-73">
@@ -3455,13 +3469,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0biHZN4C3_d4LbFX7kYq-67" target="0biHZN4C3_d4LbFX7kYq-69">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-81" source="0biHZN4C3_d4LbFX7kYq-65" target="0biHZN4C3_d4LbFX7kYq-67">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-76" value="请求后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-75">
-          <mxGeometry x="0.2544" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-79" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 0));&quot;&gt;RpcCallbackContainer.cs&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-81">
+          <mxGeometry x="1730" y="270" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-80" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;RpcCallbackContainer定义类&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-79">
+          <mxGeometry x="10" y="40" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0biHZN4C3_d4LbFX7kYq-51" target="0biHZN4C3_d4LbFX7kYq-81">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
