@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="1252" dy="1832" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3127" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3326,6 +3326,90 @@
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0biHZN4C3_d4LbFX7kYq-16" target="0biHZN4C3_d4LbFX7kYq-18">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-22" value="FirstSyncToLhyhWhenConnect" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="610" width="410" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-23" value="会配置GameEngineInfo，然后Rpc请求&lt;div&gt;SendRpc(LhyhRpcProtocols.RpcFromEngine.RpcHello, info)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-22">
+          <mxGeometry x="20" y="40" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-26" value="游戏端需要实现的接口函数" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1160" y="300" width="750" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-24" value="Assets\LHYH\Runtime\Adapter/ILhyhAdapter&lt;div&gt;定义游戏端需要实现的接口&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=70;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-26">
+          <mxGeometry x="410" y="40" width="320" height="200" as="geometry">
+            <mxRectangle x="190" y="720" width="280" height="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-25" value="Assets\LHYH\ProjectCustom\LhyhAdapter&lt;div&gt;游戏端实现接口功能&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=70;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-26">
+          <mxGeometry x="50" y="40" width="320" height="195" as="geometry">
+            <mxRectangle x="190" y="720" width="280" height="110" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0biHZN4C3_d4LbFX7kYq-23" target="0biHZN4C3_d4LbFX7kYq-31">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-47" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-29">
+          <mxGeometry x="-0.0941" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-42" value="&lt;span style=&quot;color: rgb(174, 174, 174); font-size: 14.6667px;&quot;&gt;LhyhRpcHandler需要游戏端/LHYH端保持一致&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="420" y="660" width="990" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-32" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;LhyhRpcHandler&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;program\lhyh\src\core\Lhyh.Core.Rpc/&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;LhyhRpcHandler&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-42">
+          <mxGeometry x="550" y="40" width="410" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-33" value="调用服务端/客户端&lt;div&gt;LhyhRpcServer.SendRpc(rpc_name, s_singleClientId,&amp;nbsp; data) /&lt;div&gt;LhyhRpcClient.SendRpc(rpc_name, data)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-32">
+          <mxGeometry x="20" y="40" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-38" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;LhyhRpcHandler&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#585858&quot;&gt;Assets\LHYH\Runtime\Rpc\ProtocolRpc&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(73, 73, 73), rgb(174, 174, 174)); background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#585858&quot;&gt;LhyhRpcServer&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(73, 73, 73), rgb(174, 174, 174)); background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#585858&quot;&gt;/&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#a1a1a1&quot;&gt;LhyhRpcClient&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-42">
+          <mxGeometry x="10" y="260" width="420" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-39" value="&lt;div&gt;会使用dll相关&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; [DllImport(&quot;rpc_client.dll&quot;)]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; public static extern ctt2_rpc_error_t ctt2_client_send_rpc&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-38">
+          <mxGeometry x="21" y="60" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-36" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;LhyhRpcHandler&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;font color=&quot;#aeaeae&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;lhyh\src\core\Lhyh.Core.Rpc\ProtocolRpc/&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#585858&quot;&gt;LhyhRpcServer&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(73, 73, 73), rgb(174, 174, 174)); background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#585858&quot;&gt;/&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#a1a1a1&quot;&gt;LhyhRpcClient&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-42">
+          <mxGeometry x="550" y="250" width="440" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-36">
+          <mxGeometry x="21" y="60" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-30" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;LhyhRpcHandler&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;\Assets\LHYH\Runtime\Rpc/&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;LhyhRpcHandler&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-42">
+          <mxGeometry x="15" y="50" width="410" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-31" value="调用服务端/客户端&lt;div&gt;LhyhRpcServer.SendRpc(rpc_name, s_singleClientId,&amp;nbsp; data) /&lt;div&gt;LhyhRpcClient.SendRpc(rpc_name, data)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-30">
+          <mxGeometry x="20" y="40" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.001;entryY=0.164;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-42" source="0biHZN4C3_d4LbFX7kYq-31" target="0biHZN4C3_d4LbFX7kYq-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-46" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-45">
+          <mxGeometry x="0.0638" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-42" source="0biHZN4C3_d4LbFX7kYq-30" target="0biHZN4C3_d4LbFX7kYq-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-35" value="保持一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-34">
+          <mxGeometry x="-0.1561" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-42" source="0biHZN4C3_d4LbFX7kYq-38" target="0biHZN4C3_d4LbFX7kYq-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-41" value="保持一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-40">
+          <mxGeometry x="0.035" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
