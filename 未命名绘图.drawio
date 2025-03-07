@@ -3515,6 +3515,21 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-102" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="77" y="1900" width="913" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-103" value="program/lhyh/src/engine/Lhyh/Services/GameService.Rpc.Gen.cs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-102">
+          <mxGeometry x="170" y="50" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-104" value="IToEngineHandler&lt;div&gt;IFromEngineHandler&lt;/div&gt;&lt;div&gt;ICommonEngineHandler&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-102">
+          <mxGeometry x="10" y="50" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-105" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;IToEngineHandler接口中&lt;div&gt;有返回值，会生成请求/响应函数&lt;div&gt;无返回值，会生成请求&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-102">
+          <mxGeometry x="623" y="40" width="207" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-106" value="IFromEngineHandler中&lt;div&gt;无返回值，会生成响应式函数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-102">
+          <mxGeometry x="623" y="110" width="207" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
