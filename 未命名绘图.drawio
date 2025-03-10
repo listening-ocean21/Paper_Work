@@ -3799,7 +3799,7 @@
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-155" value="&lt;div&gt;设置lhyh启动方式&lt;/div&gt;LhyhEngineFacade.Instance.Initialize(LhyhEngineMode.Application);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-145">
           <mxGeometry x="10" y="130" width="360" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-164" value="&lt;div&gt;循环遍历lhyh启动方式&lt;/div&gt;LhyhEngineFacade.Instance.LhyhStart();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-145">
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-164" value="&lt;div&gt;循环遍历启动各个模块&lt;/div&gt;LhyhEngineFacade.Instance.LhyhStart();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-145">
           <mxGeometry x="10" y="180" width="360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-146" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;InitializeServices（注册各种服务）&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
