@@ -3436,6 +3436,15 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-10" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-81">
+          <mxGeometry x="312" y="593" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-11" value="TransformOpInfoInScene" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-10">
+          <mxGeometry y="30" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-54" value="SoundSetting" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-10">
+          <mxGeometry y="80" width="170" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0biHZN4C3_d4LbFX7kYq-51" target="0biHZN4C3_d4LbFX7kYq-81" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
