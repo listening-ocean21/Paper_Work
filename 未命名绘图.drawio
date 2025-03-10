@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="2248" dy="1480" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2894" dy="1819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3315,7 +3315,7 @@
         <mxCell id="0biHZN4C3_d4LbFX7kYq-20" value="Dispose" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-18" vertex="1">
           <mxGeometry x="30" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0biHZN4C3_d4LbFX7kYq-16" target="0biHZN4C3_d4LbFX7kYq-18" edge="1">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;strokeColor=#2D7600;dashed=1;" parent="1" source="0biHZN4C3_d4LbFX7kYq-16" target="0biHZN4C3_d4LbFX7kYq-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-22" value="FirstSyncToLhyhWhenConnect" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -3370,19 +3370,22 @@
           <mxGeometry x="20" y="320" width="300" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-81" value="GameService相关服务" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="1810" y="500" width="1940" height="1030" as="geometry" />
+          <mxGeometry x="1905" y="500" width="1940" height="1030" as="geometry" />
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-59" value="GameService（游戏相关类）" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-81" vertex="1">
           <mxGeometry x="30" y="480" width="250" height="230" as="geometry" />
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-62" value="Startup" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-59" vertex="1">
-          <mxGeometry x="10" y="40" width="240" height="120" as="geometry" />
+          <mxGeometry x="10" y="40" width="240" height="150" as="geometry" />
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-65" value="_BindHandler（回对游戏响应信息做回调）" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-62" vertex="1">
           <mxGeometry x="10" y="30" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-78" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;InitializeRpcData&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;InitializeRpcData&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-62" vertex="1">
           <mxGeometry x="10" y="70" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-81" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;InitializeRpcData&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;InitializeRpcHandler&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-62">
+          <mxGeometry x="10" y="110" width="230" height="30" as="geometry" />
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-66" value="GameService.Rpc.Gen.cs（会自动生成）" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-81" vertex="1">
           <mxGeometry x="360" y="120" width="1270" height="420" as="geometry" />
@@ -3437,7 +3440,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-10" value="InitializeRpcData()初始化一些RPC" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-81">
-          <mxGeometry x="312" y="593" width="200" height="217" as="geometry" />
+          <mxGeometry x="915" y="590" width="198" height="217" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-11" value="TransformOpInfoInScene" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-10">
           <mxGeometry y="30" width="170" height="40" as="geometry" />
@@ -3451,8 +3454,34 @@
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-79" value="TimelineEnd" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-10">
           <mxGeometry y="177" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0biHZN4C3_d4LbFX7kYq-51" target="0biHZN4C3_d4LbFX7kYq-81" edge="1">
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.017;entryY=0.059;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#008a00;strokeColor=#005700;dashed=1;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-81" source="0biHZN4C3_d4LbFX7kYq-78" target="t3vcy9BpPLN0f5ZR2rbg-10">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-108" value="IInitializeRpcHandler&lt;span style=&quot;font-weight: 400;&quot;&gt;（注册事件）&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-81">
+          <mxGeometry x="360" y="650" width="198" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-109" value="&amp;nbsp;BindRpcHandlers();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-108">
+          <mxGeometry y="30" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-110" value="AutoRegisterRpcSenderOld" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-108">
+          <mxGeometry y="80" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-113" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;&amp;nbsp;BindRpcHandlers();（订阅一些事件）&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-81">
+          <mxGeometry x="595" y="650" width="320" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-114" value="RpcService.SubscribeRpc&amp;lt;Lhyh.Proto.GameEngineInfo&amp;gt;(RpcObserverName, LhyhRpcProtocols.RpcFromEngine.RpcHello, HelloFromGame);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-113">
+          <mxGeometry x="8.5" y="40" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.131;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#008a00;strokeColor=#005700;dashed=1;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-81" source="t3vcy9BpPLN0f5ZR2rbg-109" target="t3vcy9BpPLN0f5ZR2rbg-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.011;entryY=0.085;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#60a917;strokeColor=#2D7600;dashed=1;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-81" source="t3vcy9BpPLN0f5ZR2rbg-81" target="t3vcy9BpPLN0f5ZR2rbg-108">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#60a917;strokeColor=#2D7600;dashed=1;" parent="1" source="0biHZN4C3_d4LbFX7kYq-51" target="0biHZN4C3_d4LbFX7kYq-81" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1540" y="500" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-101" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0)); font-weight: normal; font-size: 17px;&quot;&gt;需要游戏端和Lhyh端保持完全一致&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" parent="1" vertex="1">
           <mxGeometry x="334" y="853" width="1320" height="900" as="geometry" />
@@ -3686,12 +3715,24 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=light-dark(#000000,#00FF00);" edge="1" parent="1" source="0biHZN4C3_d4LbFX7kYq-66" target="t3vcy9BpPLN0f5ZR2rbg-1">
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;strokeColor=light-dark(#000000,#00FF00);" edge="1" parent="1" source="0biHZN4C3_d4LbFX7kYq-66">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2115" y="1990" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="2020" y="620" />
+              <mxPoint x="2115" y="620" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-119" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1" source="0biHZN4C3_d4LbFX7kYq-52" target="0biHZN4C3_d4LbFX7kYq-59">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-120" value="遍历调用2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t3vcy9BpPLN0f5ZR2rbg-119">
+          <mxGeometry x="0.1282" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.011;entryY=0.072;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0biHZN4C3_d4LbFX7kYq-11" target="0biHZN4C3_d4LbFX7kYq-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
