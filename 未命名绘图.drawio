@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="26.1.0" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.0" pages="2">
   <diagram name="第 1 页" id="s2snfImjlksssQ3lNaat">
     <mxGraphModel dx="5843" dy="554" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3269,256 +3269,256 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="3443" dy="2116" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3127" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-1" value="Lhyh" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-1" value="Lhyh" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="320" y="60" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-2" value="Game" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-2" value="Game" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="70" y="60" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-3" value="program.cs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-3" value="program.cs" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="610" y="-200" width="710" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-4" value="雷火程序启动入口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-3">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-4" value="雷火程序启动入口" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="0biHZN4C3_d4LbFX7kYq-3" vertex="1">
           <mxGeometry x="-5" y="25" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-6" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-3">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-6" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-3" vertex="1">
           <mxGeometry x="11" y="55" width="650" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-7" value="&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;ul style=&quot;margin-top: 4px; margin-bottom: 0px; padding-left: calc(var(--ds-md-zoom)*24px); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;Configure&amp;lt;App&amp;gt;()&lt;/code&gt;：指定应用程序的主类（通常是&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;App&lt;/code&gt;）。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;ReadConfig()&lt;/code&gt;：读取配置文件（可能是自定义扩展方法）。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;ConfigConsole()&lt;/code&gt;：配置控制台（可能是自定义扩展方法）。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;LhyhCrashDump()&lt;/code&gt;：配置崩溃日志记录（可能是自定义扩展方法）。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;CheckUpdate()&lt;/code&gt;：检查更新（可能是自定义扩展方法）。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;UsePlatformDetect()&lt;/code&gt;：自动检测运行平台。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;WithLhyhFont()&lt;/code&gt;：加载自定义字体（可能是自定义扩展方法）。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;WithInterFont()&lt;/code&gt;：加载 Inter 字体（Avalonia 内置字体）。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;LogToTrace()&lt;/code&gt;：将日志输出到 Trace。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;UseReactiveUI()&lt;/code&gt;：启用 ReactiveUI 框架（一个基于 Reactive Extensions 的 MVVM 框架）。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-6">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-7" value="&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;ul style=&quot;margin-top: 4px; margin-bottom: 0px; padding-left: calc(var(--ds-md-zoom)*24px); font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, &amp;quot;Noto Sans&amp;quot;, Ubuntu, Cantarell, &amp;quot;Helvetica Neue&amp;quot;, Oxygen, &amp;quot;Open Sans&amp;quot;, sans-serif; font-size: 16.002px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;li&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;Configure&amp;lt;App&amp;gt;()&lt;/code&gt;：指定应用程序的主类（通常是&lt;span&gt;&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;App&lt;/code&gt;）。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;ReadConfig()&lt;/code&gt;：读取配置文件（可能是自定义扩展方法）。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;ConfigConsole()&lt;/code&gt;：配置控制台（可能是自定义扩展方法）。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;LhyhCrashDump()&lt;/code&gt;：配置崩溃日志记录（可能是自定义扩展方法）。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;CheckUpdate()&lt;/code&gt;：检查更新（可能是自定义扩展方法）。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;UsePlatformDetect()&lt;/code&gt;：自动检测运行平台。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;WithLhyhFont()&lt;/code&gt;：加载自定义字体（可能是自定义扩展方法）。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;WithInterFont()&lt;/code&gt;：加载 Inter 字体（Avalonia 内置字体）。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;LogToTrace()&lt;/code&gt;：将日志输出到 Trace。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;li style=&quot;margin-top: 4px;&quot;&gt;&lt;p style=&quot;margin-top: 0px; margin-right: 0px; margin-bottom: 0px !important; margin-left: 0px; font-size: var(--ds-md-font-size); line-height: var(--ds-md-line-height);&quot;&gt;&lt;b&gt;&lt;font style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;code style=&quot;font-size: 0.875em; font-family: var(--ds-font-family-code); border-radius: 4px; padding: 0.15rem 0.3rem;&quot;&gt;UseReactiveUI()&lt;/code&gt;：启用 ReactiveUI 框架（一个基于 Reactive Extensions 的 MVVM 框架）。&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;b&gt;&lt;font&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;" style="whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-6" vertex="1">
           <mxGeometry x="30" y="50" width="610" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-8" value="App.axaml.cs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-8" value="App.axaml.cs" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="620" y="310" width="250" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-9" value="OnFrameworkInitializationCompleted" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-8">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-9" value="OnFrameworkInitializationCompleted" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-8" vertex="1">
           <mxGeometry x="20" y="40" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-10" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;OnFrameworkInitializationCompleted&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-10" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;OnFrameworkInitializationCompleted&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="940" y="310" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-11" value="InitializeServices" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-10">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-11" value="InitializeServices" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-10" vertex="1">
           <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.016;entryY=0.101;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0biHZN4C3_d4LbFX7kYq-9" target="0biHZN4C3_d4LbFX7kYq-10">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.016;entryY=0.101;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0biHZN4C3_d4LbFX7kYq-9" target="0biHZN4C3_d4LbFX7kYq-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-18" value="ChildProcessManager（进程管理类）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-18" value="ChildProcessManager（进程管理类）" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1700" y="190" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-19" value="AddProcess" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-18">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-19" value="AddProcess" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-18" vertex="1">
           <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-20" value="Dispose" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-18">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-20" value="Dispose" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-18" vertex="1">
           <mxGeometry x="30" y="120" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0biHZN4C3_d4LbFX7kYq-16" target="0biHZN4C3_d4LbFX7kYq-18">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.002;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0biHZN4C3_d4LbFX7kYq-16" target="0biHZN4C3_d4LbFX7kYq-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-22" value="FirstSyncToLhyhWhenConnect" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-22" value="FirstSyncToLhyhWhenConnect" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-170" y="610" width="410" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-23" value="会配置GameEngineInfo，然后Rpc请求&lt;div&gt;SendRpc(LhyhRpcProtocols.RpcFromEngine.RpcHello, info)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-22">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-23" value="会配置GameEngineInfo，然后Rpc请求&lt;div&gt;SendRpc(LhyhRpcProtocols.RpcFromEngine.RpcHello, info)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-22" vertex="1">
           <mxGeometry x="20" y="40" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-26" value="游戏端需要实现的接口函数" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-26" value="游戏端需要实现的接口函数" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-1160" y="300" width="750" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-24" value="Assets\LHYH\Runtime\Adapter/ILhyhAdapter&lt;div&gt;定义游戏端需要实现的接口&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=70;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-26">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-24" value="Assets\LHYH\Runtime\Adapter/ILhyhAdapter&lt;div&gt;定义游戏端需要实现的接口&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=70;" parent="0biHZN4C3_d4LbFX7kYq-26" vertex="1">
           <mxGeometry x="410" y="40" width="320" height="200" as="geometry">
             <mxRectangle x="190" y="720" width="280" height="110" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-25" value="Assets\LHYH\ProjectCustom\LhyhAdapter&lt;div&gt;游戏端实现接口功能&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=70;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-26">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-25" value="Assets\LHYH\ProjectCustom\LhyhAdapter&lt;div&gt;游戏端实现接口功能&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=70;" parent="0biHZN4C3_d4LbFX7kYq-26" vertex="1">
           <mxGeometry x="50" y="40" width="320" height="195" as="geometry">
             <mxRectangle x="190" y="720" width="280" height="110" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0biHZN4C3_d4LbFX7kYq-23" target="0biHZN4C3_d4LbFX7kYq-31">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0biHZN4C3_d4LbFX7kYq-23" target="0biHZN4C3_d4LbFX7kYq-31" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="350" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-47" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-29">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-47" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0biHZN4C3_d4LbFX7kYq-29" vertex="1" connectable="0">
           <mxGeometry x="-0.0941" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-54" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;InitializeServices（注册各种）&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-54" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;InitializeServices（注册各种）&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="1" vertex="1">
           <mxGeometry x="1200" y="250" width="400" height="460" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-15" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;InitializeServices（注册各种）&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-54">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-15" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;InitializeServices（注册各种）&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" parent="0biHZN4C3_d4LbFX7kYq-54" vertex="1">
           <mxGeometry x="10" y="40" width="360" height="260" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-16" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;ServiceManager.Instance.Register(new ChildProcessManager());&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;XQ28\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;|linespacing:\&amp;quot;115\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 115%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;ServiceManager.Instance.Register(new ChildProcessManager());主要做进程管理&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-15">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-16" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;ServiceManager.Instance.Register(new ChildProcessManager());&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;XQ28\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;|linespacing:\&amp;quot;115\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 115%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;ServiceManager.Instance.Register(new ChildProcessManager());主要做进程管理&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-15" vertex="1">
           <mxGeometry x="15" y="40" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-17" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;ServiceManager.Instance.Register(new ChildProcessManager());&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;XQ28\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;|linespacing:\&amp;quot;115\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 115%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;ServiceManager.Instance.Register(new RpcService());&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-15">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-17" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;ServiceManager.Instance.Register(new ChildProcessManager());&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;XQ28\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;|linespacing:\&amp;quot;115\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 115%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;ServiceManager.Instance.Register(new RpcService());&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-15" vertex="1">
           <mxGeometry x="15" y="120" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-51" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;ServiceManager.Instance.Register(new ChildProcessManager());&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;XQ28\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;|linespacing:\&amp;quot;115\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 115%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;ServiceManager.Instance.Register(new GameService());&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-15">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-51" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;ServiceManager.Instance.Register(new ChildProcessManager());&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;XQ28\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;|linespacing:\&amp;quot;115\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 115%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;ServiceManager.Instance.Register(new GameService());&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-15" vertex="1">
           <mxGeometry x="15" y="190" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-52" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;ServiceManager.Instance.Register(new ChildProcessManager());&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;XQ28\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;|linespacing:\&amp;quot;115\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 115%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;ServiceManager.Instance.Startup();会遍历启动以上注册的服务的startup&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-54">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-52" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;ServiceManager.Instance.Register(new ChildProcessManager());&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;XQ28\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;|linespacing:\&amp;quot;115\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 115%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;ServiceManager.Instance.Startup();会遍历启动以上注册的服务的startup&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-54" vertex="1">
           <mxGeometry x="20" y="320" width="300" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-81" value="GameService相关服务" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-81" value="GameService相关服务" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1810" y="500" width="1940" height="1030" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-59" value="GameService（游戏相关类）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-81">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-59" value="GameService（游戏相关类）" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-81" vertex="1">
           <mxGeometry x="30" y="480" width="250" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-62" value="Startup" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-59">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-62" value="Startup" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-59" vertex="1">
           <mxGeometry x="10" y="40" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-65" value="_BindHandler（回对游戏响应信息做回调）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-62">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-65" value="_BindHandler（回对游戏响应信息做回调）" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-62" vertex="1">
           <mxGeometry x="10" y="30" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-78" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;InitializeRpcData&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;InitializeRpcData&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-62">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-78" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;InitializeRpcData&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%;margin-bottom: 0pt;margin-top: 0pt;font-size: 11pt;color: #494949;&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;InitializeRpcData&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-62" vertex="1">
           <mxGeometry x="10" y="70" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-66" value="GameService.Rpc.Gen.cs（会自动生成）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-81">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-66" value="GameService.Rpc.Gen.cs（会自动生成）" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-81" vertex="1">
           <mxGeometry x="360" y="120" width="1270" height="420" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-67" value="this.WhenAnyValue(v =&amp;gt; v.ResponseGetActorPreview).Where(v =&amp;gt; v != null).Subscribe(v =&amp;gt; _OnGetActorPreview(v!.ProtoData));" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-66">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-67" value="this.WhenAnyValue(v =&amp;gt; v.ResponseGetActorPreview).Where(v =&amp;gt; v != null).Subscribe(v =&amp;gt; _OnGetActorPreview(v!.ProtoData));" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-66" vertex="1">
           <mxGeometry x="20" y="30" width="440" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-68" value="_OnGetActorPreview（）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-66">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-68" value="_OnGetActorPreview（）" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-66" vertex="1">
           <mxGeometry x="510" y="190" width="310" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-69" value="触发回调函数（异步请求机制）&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;_cbGetActorPreview是个&lt;/span&gt;&lt;span style=&quot;font-weight: 700; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 0));&quot;&gt;RpcCallbackContainer类&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;_cbGetActorPreview.TriggerCallback(res.RpcId, res.Data);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-68">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-69" value="触发回调函数（异步请求机制）&lt;br&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;_cbGetActorPreview是个&lt;/span&gt;&lt;span style=&quot;font-weight: 700; background-color: transparent;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 0));&quot;&gt;RpcCallbackContainer类&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;_cbGetActorPreview.TriggerCallback(res.RpcId, res.Data);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-68" vertex="1">
           <mxGeometry x="10" y="40" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-66" source="0biHZN4C3_d4LbFX7kYq-67" target="0biHZN4C3_d4LbFX7kYq-69">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="0biHZN4C3_d4LbFX7kYq-66" source="0biHZN4C3_d4LbFX7kYq-67" target="0biHZN4C3_d4LbFX7kYq-69" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-76" value="请求后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-75">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-76" value="请求后" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0biHZN4C3_d4LbFX7kYq-75" vertex="1" connectable="0">
           <mxGeometry x="0.2544" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-70" value="Task&amp;lt;ByteString&amp;gt; GetActorPreview(string actorId)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-66">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-70" value="Task&amp;lt;ByteString&amp;gt; GetActorPreview(string actorId)" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-66" vertex="1">
           <mxGeometry x="870" y="190" width="340" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-71" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return _cbGetActorPreview.AddCallback((rpcId) =&amp;gt; ReqGetActorPreview = new RpcRequestArgs&amp;lt;RequestGetActorPreview&amp;gt;(&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;);在构建&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ReqGetActorPreview&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;成功后，会触发&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RPC请求，等到游戏端&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ResponseGetActorPreview&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-70">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-71" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; return _cbGetActorPreview.AddCallback((rpcId) =&amp;gt; ReqGetActorPreview = new RpcRequestArgs&amp;lt;RequestGetActorPreview&amp;gt;(&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;);在构建&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ReqGetActorPreview&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;成功后，会触发&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;RPC请求，等到游戏端&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ResponseGetActorPreview&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-70" vertex="1">
           <mxGeometry x="15" y="30" width="300" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-66" source="0biHZN4C3_d4LbFX7kYq-71" target="0biHZN4C3_d4LbFX7kYq-67">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-73" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" parent="0biHZN4C3_d4LbFX7kYq-66" source="0biHZN4C3_d4LbFX7kYq-71" target="0biHZN4C3_d4LbFX7kYq-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-74" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 12, 54));&quot;&gt;发送请求，会返回&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(27, 29, 30);&quot;&gt;ResponseGetActorPreview，调用&lt;/span&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(27, 29, 30);&quot;&gt;_cbGetActorPreview的回掉函数，以及&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 12px; font-weight: 700; text-wrap-mode: wrap; background-color: rgb(27, 29, 30);&quot;&gt;GetActorPreview()返回对应数据&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-73">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-74" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 12, 54));&quot;&gt;发送请求，会返回&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(27, 29, 30);&quot;&gt;ResponseGetActorPreview，调用&lt;/span&gt;&lt;span style=&quot;font-size: 12px; text-wrap-mode: wrap; background-color: rgb(27, 29, 30);&quot;&gt;_cbGetActorPreview的回掉函数，以及&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 12px; font-weight: 700; text-wrap-mode: wrap; background-color: rgb(27, 29, 30);&quot;&gt;GetActorPreview()返回对应数据&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0biHZN4C3_d4LbFX7kYq-73" vertex="1" connectable="0">
           <mxGeometry x="0.2128" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-81" source="0biHZN4C3_d4LbFX7kYq-65" target="0biHZN4C3_d4LbFX7kYq-67">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="0biHZN4C3_d4LbFX7kYq-81" source="0biHZN4C3_d4LbFX7kYq-65" target="0biHZN4C3_d4LbFX7kYq-67" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-79" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 0));&quot;&gt;RpcCallbackContainer.cs&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-81">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-79" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 0));&quot;&gt;RpcCallbackContainer.cs&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-81" vertex="1">
           <mxGeometry x="1730" y="270" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-80" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;RpcCallbackContainer定义类&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-79">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-80" value="&lt;span style=&quot;font-weight: 700;&quot;&gt;RpcCallbackContainer定义类&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-79" vertex="1">
           <mxGeometry x="10" y="40" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0biHZN4C3_d4LbFX7kYq-51" target="0biHZN4C3_d4LbFX7kYq-81">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="0biHZN4C3_d4LbFX7kYq-51" target="0biHZN4C3_d4LbFX7kYq-81" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-101" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0)); font-weight: normal; font-size: 17px;&quot;&gt;需要游戏端和Lhyh端保持完全一致&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-101" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0)); font-weight: normal; font-size: 17px;&quot;&gt;需要游戏端和Lhyh端保持完全一致&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" parent="1" vertex="1">
           <mxGeometry x="250" y="860" width="1320" height="900" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-42" value="&lt;span style=&quot;color: rgb(174, 174, 174); font-size: 14.6667px;&quot;&gt;LhyhRpcHandler需要游戏端/LHYH端保持一致&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-101">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-42" value="&lt;span style=&quot;color: rgb(174, 174, 174); font-size: 14.6667px;&quot;&gt;LhyhRpcHandler需要游戏端/LHYH端保持一致&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="0biHZN4C3_d4LbFX7kYq-101" vertex="1">
           <mxGeometry x="61" y="70" width="990" height="450" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-32" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;LhyhRpcHandler&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;program\lhyh\src\core\Lhyh.Core.Rpc/&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;LhyhRpcHandler&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-42">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-32" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;LhyhRpcHandler&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;program\lhyh\src\core\Lhyh.Core.Rpc/&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;LhyhRpcHandler&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-42" vertex="1">
           <mxGeometry x="550" y="40" width="410" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-33" value="调用服务端/客户端&lt;div&gt;LhyhRpcServer.SendRpc(rpc_name, s_singleClientId,&amp;nbsp; data) /&lt;div&gt;LhyhRpcClient.SendRpc(rpc_name, data)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-32">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-33" value="调用服务端/客户端&lt;div&gt;LhyhRpcServer.SendRpc(rpc_name, s_singleClientId,&amp;nbsp; data) /&lt;div&gt;LhyhRpcClient.SendRpc(rpc_name, data)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-32" vertex="1">
           <mxGeometry x="20" y="40" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-38" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;LhyhRpcHandler&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#585858&quot;&gt;Assets\LHYH\Runtime\Rpc\ProtocolRpc&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(73, 73, 73), rgb(174, 174, 174)); background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#585858&quot;&gt;LhyhRpcServer&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(73, 73, 73), rgb(174, 174, 174)); background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#585858&quot;&gt;/&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#a1a1a1&quot;&gt;LhyhRpcClient&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-42">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-38" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;LhyhRpcHandler&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span style=&quot;background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#585858&quot;&gt;Assets\LHYH\Runtime\Rpc\ProtocolRpc&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(73, 73, 73), rgb(174, 174, 174)); background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#585858&quot;&gt;LhyhRpcServer&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(73, 73, 73), rgb(174, 174, 174)); background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#585858&quot;&gt;/&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#a1a1a1&quot;&gt;LhyhRpcClient&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="0biHZN4C3_d4LbFX7kYq-42" vertex="1">
           <mxGeometry x="10" y="260" width="420" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-39" value="&lt;div&gt;会使用dll相关&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; [DllImport(&quot;rpc_client.dll&quot;)]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; public static extern ctt2_rpc_error_t ctt2_client_send_rpc&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-38">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-39" value="&lt;div&gt;会使用dll相关&amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; [DllImport(&quot;rpc_client.dll&quot;)]&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; public static extern ctt2_rpc_error_t ctt2_client_send_rpc&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-38" vertex="1">
           <mxGeometry x="21" y="60" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-36" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;LhyhRpcHandler&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;font color=&quot;#aeaeae&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;lhyh\src\core\Lhyh.Core.Rpc\ProtocolRpc/&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#585858&quot;&gt;LhyhRpcServer&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(73, 73, 73), rgb(174, 174, 174)); background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#585858&quot;&gt;/&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#a1a1a1&quot;&gt;LhyhRpcClient&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-42">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-36" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;LhyhRpcHandler&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;font color=&quot;#aeaeae&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;lhyh\src\core\Lhyh.Core.Rpc\ProtocolRpc/&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#585858&quot;&gt;LhyhRpcServer&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span style=&quot;color: light-dark(rgb(73, 73, 73), rgb(174, 174, 174)); background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#585858&quot;&gt;/&lt;/font&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; font-size: 14.6667px;&quot;&gt;&lt;font color=&quot;#a1a1a1&quot;&gt;LhyhRpcClient&lt;/font&gt;&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" parent="0biHZN4C3_d4LbFX7kYq-42" vertex="1">
           <mxGeometry x="550" y="250" width="440" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-36">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-36" vertex="1">
           <mxGeometry x="21" y="60" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-30" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;LhyhRpcHandler&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;\Assets\LHYH\Runtime\Rpc/&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;LhyhRpcHandler&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-42">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-30" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;LhyhRpcHandler&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;\Assets\LHYH\Runtime\Rpc/&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;LhyhRpcHandler&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-42" vertex="1">
           <mxGeometry x="15" y="50" width="410" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-31" value="调用服务端/客户端&lt;div&gt;LhyhRpcServer.SendRpc(rpc_name, s_singleClientId,&amp;nbsp; data) /&lt;div&gt;LhyhRpcClient.SendRpc(rpc_name, data)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-30">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-31" value="调用服务端/客户端&lt;div&gt;LhyhRpcServer.SendRpc(rpc_name, s_singleClientId,&amp;nbsp; data) /&lt;div&gt;LhyhRpcClient.SendRpc(rpc_name, data)&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-30" vertex="1">
           <mxGeometry x="20" y="40" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.001;entryY=0.164;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-42" source="0biHZN4C3_d4LbFX7kYq-31" target="0biHZN4C3_d4LbFX7kYq-38">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.001;entryY=0.164;entryDx=0;entryDy=0;entryPerimeter=0;" parent="0biHZN4C3_d4LbFX7kYq-42" source="0biHZN4C3_d4LbFX7kYq-31" target="0biHZN4C3_d4LbFX7kYq-38" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-46" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-45">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-46" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0biHZN4C3_d4LbFX7kYq-45" vertex="1" connectable="0">
           <mxGeometry x="0.0638" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-42" source="0biHZN4C3_d4LbFX7kYq-30" target="0biHZN4C3_d4LbFX7kYq-32">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="0biHZN4C3_d4LbFX7kYq-42" source="0biHZN4C3_d4LbFX7kYq-30" target="0biHZN4C3_d4LbFX7kYq-32" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="560" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-35" value="保持一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-34">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-35" value="保持一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0biHZN4C3_d4LbFX7kYq-34" vertex="1" connectable="0">
           <mxGeometry x="-0.1561" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-42" source="0biHZN4C3_d4LbFX7kYq-38" target="0biHZN4C3_d4LbFX7kYq-36">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="0biHZN4C3_d4LbFX7kYq-42" source="0biHZN4C3_d4LbFX7kYq-38" target="0biHZN4C3_d4LbFX7kYq-36" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="540" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-41" value="保持一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-40">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-41" value="保持一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0biHZN4C3_d4LbFX7kYq-40" vertex="1" connectable="0">
           <mxGeometry x="0.035" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-83" value="&lt;span style=&quot;color: rgb(174, 174, 174); font-size: 14.6667px;&quot;&gt;IEngineHandler需要游戏端/LHYH端保持一致&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-101">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-83" value="&lt;span style=&quot;color: rgb(174, 174, 174); font-size: 14.6667px;&quot;&gt;IEngineHandler需要游戏端/LHYH端保持一致&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" parent="0biHZN4C3_d4LbFX7kYq-101" vertex="1">
           <mxGeometry x="60" y="550" width="990" height="270" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-84" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;LhyhRpcHandler&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;font color=&quot;#aeaeae&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;lhyh\src\core\Lhyh.Core.Rpc\ProxyHandler/&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(88, 88, 88); font-size: 14.6667px; background-color: transparent;&quot;&gt;IEngineHandler&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-83">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-84" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;LhyhRpcHandler&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;font color=&quot;#aeaeae&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;lhyh\src\core\Lhyh.Core.Rpc\ProxyHandler/&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(88, 88, 88); font-size: 14.6667px; background-color: transparent;&quot;&gt;IEngineHandler&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-83" vertex="1">
           <mxGeometry x="550" y="40" width="410" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-85" value="IToEngineHandler相关的接口&lt;div&gt;如GetActorPreview（）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-84">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-85" value="IToEngineHandler相关的接口&lt;div&gt;如GetActorPreview（）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-84" vertex="1">
           <mxGeometry x="20" y="40" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-98" value="IFromEngineHandler相关的接口&lt;div&gt;如SyncVirtualParentFromGame（）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-84">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-98" value="IFromEngineHandler相关的接口&lt;div&gt;如SyncVirtualParentFromGame（）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-84" vertex="1">
           <mxGeometry x="21" y="110" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-90" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;LhyhRpcHandler&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;font color=&quot;#aeaeae&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;Assets\LHYH\Runtime\Rpc\ProxyHandler/&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(161, 161, 161); font-size: 14.6667px; background-color: transparent;&quot;&gt;IEngineHandler&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-83">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-90" value="&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;LhyhRpcHandler&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 100%; margin-bottom: 0pt; margin-top: 0pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;font color=&quot;#aeaeae&quot;&gt;&lt;span style=&quot;font-size: 14.6667px;&quot;&gt;Assets\LHYH\Runtime\Rpc\ProxyHandler/&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(161, 161, 161); font-size: 14.6667px; background-color: transparent;&quot;&gt;IEngineHandler&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-83" vertex="1">
           <mxGeometry x="15" y="50" width="410" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-99" value="IToEngineHandler相关的接口&lt;div&gt;如GetActorPreview（）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-90">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-99" value="IToEngineHandler相关的接口&lt;div&gt;如GetActorPreview（）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-90" vertex="1">
           <mxGeometry x="16.5" y="40" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-100" value="IFromEngineHandler相关的接口&lt;div&gt;如SyncVirtualParentFromGame（）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-90">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-100" value="IFromEngineHandler相关的接口&lt;div&gt;如SyncVirtualParentFromGame（）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-90" vertex="1">
           <mxGeometry x="17.5" y="110" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-83" source="0biHZN4C3_d4LbFX7kYq-90" target="0biHZN4C3_d4LbFX7kYq-84">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="0biHZN4C3_d4LbFX7kYq-83" source="0biHZN4C3_d4LbFX7kYq-90" target="0biHZN4C3_d4LbFX7kYq-84" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="560" y="150" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-95" value="保持一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-94">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-95" value="保持一致" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0biHZN4C3_d4LbFX7kYq-94" vertex="1" connectable="0">
           <mxGeometry x="-0.1561" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-102" value="ProxyHandler自动生成代码" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-102" value="ProxyHandler自动生成代码" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-40" y="1900" width="1020" height="430" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.159;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-102" source="0biHZN4C3_d4LbFX7kYq-104" target="0biHZN4C3_d4LbFX7kYq-123">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.159;entryDx=0;entryDy=0;entryPerimeter=0;" parent="0biHZN4C3_d4LbFX7kYq-102" source="0biHZN4C3_d4LbFX7kYq-104" target="0biHZN4C3_d4LbFX7kYq-123" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="290" y="115" as="targetPoint" />
             <Array as="points">
@@ -3527,105 +3527,105 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-118" value="Lhyh端" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-116">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-118" value="Lhyh端" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0biHZN4C3_d4LbFX7kYq-116" vertex="1" connectable="0">
           <mxGeometry x="0.198" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-102" source="0biHZN4C3_d4LbFX7kYq-104" target="0biHZN4C3_d4LbFX7kYq-115">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-117" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="0biHZN4C3_d4LbFX7kYq-102" source="0biHZN4C3_d4LbFX7kYq-104" target="0biHZN4C3_d4LbFX7kYq-115" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-119" value="Game端" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-117">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-119" value="Game端" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0biHZN4C3_d4LbFX7kYq-117" vertex="1" connectable="0">
           <mxGeometry x="0.0218" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-104" value="IToEngineHandler&lt;div&gt;IFromEngineHandler&lt;/div&gt;&lt;div&gt;ICommonEngineHandler&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-102">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-104" value="IToEngineHandler&lt;div&gt;IFromEngineHandler&lt;/div&gt;&lt;div&gt;ICommonEngineHandler&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-102" vertex="1">
           <mxGeometry x="20" y="170" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-113" value="Lhyh端自动生成代码" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-102">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-113" value="Lhyh端自动生成代码" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-102" vertex="1">
           <mxGeometry x="290" y="40" width="679" height="150" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-123" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;program/lhyh/src/engine/Lhyh/Services/GameService.Rpc.Gen.cs&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-113">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-123" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;program/lhyh/src/engine/Lhyh/Services/GameService.Rpc.Gen.cs&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-113" vertex="1">
           <mxGeometry x="100" y="30" width="450" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-105" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;IToEngineHandler接口中&lt;div&gt;有返回值，会生成请求/响应函数&lt;div&gt;无返回值，会生成请求&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-123">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-105" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;IToEngineHandler接口中&lt;div&gt;有返回值，会生成请求/响应函数&lt;div&gt;无返回值，会生成请求&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-123" vertex="1">
           <mxGeometry x="11.5" y="30" width="207" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-106" value="IFromEngineHandler中&lt;div&gt;无返回值，会生成响应式函数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-123">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-106" value="IFromEngineHandler中&lt;div&gt;无返回值，会生成响应式函数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-123" vertex="1">
           <mxGeometry x="230" y="30" width="207" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-115" value="游戏端自动生成代码" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-102">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-115" value="游戏端自动生成代码" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-102" vertex="1">
           <mxGeometry x="292" y="210" width="677" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-107" value="unity_demo/urp/Assets/LHYH/Runtime/Rpc/ProxyHandler/EngineHandler.Gen.cs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-115">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-107" value="unity_demo/urp/Assets/LHYH/Runtime/Rpc/ProxyHandler/EngineHandler.Gen.cs" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-115" vertex="1">
           <mxGeometry x="10" y="40" width="437" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-109" value="unity_demo/urp/Assets/LHYH/Runtime/ProtocolCallback.Gen.cs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-115">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-109" value="unity_demo/urp/Assets/LHYH/Runtime/ProtocolCallback.Gen.cs" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-115" vertex="1">
           <mxGeometry x="10" y="120" width="437" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-108" value="IFromEngineHandler中&lt;div&gt;无返回值，会生成发送给lhyh的响应式函数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-115">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-108" value="IFromEngineHandler中&lt;div&gt;无返回值，会生成发送给lhyh的响应式函数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-115" vertex="1">
           <mxGeometry x="470" y="40" width="207" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-115" source="0biHZN4C3_d4LbFX7kYq-108" target="0biHZN4C3_d4LbFX7kYq-107">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="0biHZN4C3_d4LbFX7kYq-115" source="0biHZN4C3_d4LbFX7kYq-108" target="0biHZN4C3_d4LbFX7kYq-107" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-110" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;IToEngineHandler接口中&lt;div&gt;有返回值，会生成请求函数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-115">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-110" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;IToEngineHandler接口中&lt;div&gt;有返回值，会生成请求函数&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-115" vertex="1">
           <mxGeometry x="470" y="120" width="207" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-115" source="0biHZN4C3_d4LbFX7kYq-110" target="0biHZN4C3_d4LbFX7kYq-109">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-112" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="0biHZN4C3_d4LbFX7kYq-115" source="0biHZN4C3_d4LbFX7kYq-110" target="0biHZN4C3_d4LbFX7kYq-109" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-120" value="LhyhAllRpcProtocols.Release.cs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-190" y="2400" width="1030" height="390" as="geometry" />
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-120" value="定义RPC交互函数" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="2390" width="1030" height="390" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-120" source="0biHZN4C3_d4LbFX7kYq-121" target="0biHZN4C3_d4LbFX7kYq-127">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="0biHZN4C3_d4LbFX7kYq-120" source="0biHZN4C3_d4LbFX7kYq-121" target="0biHZN4C3_d4LbFX7kYq-127" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-132" value="Game端手动生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-130">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-132" value="Game端手动生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0biHZN4C3_d4LbFX7kYq-130" vertex="1" connectable="0">
           <mxGeometry x="0.0315" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-121" value="LhyhRpcProtocols/&lt;div&gt;RpcFromEngine/&lt;/div&gt;&lt;div&gt;RpcToEngine&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-120">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-121" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 0, 0));&quot;&gt;LhyhRpcProtocols/&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 0, 0));&quot;&gt;RpcFromEngine/&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(204, 0, 0));&quot;&gt;RpcToEngine&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-120" vertex="1">
           <mxGeometry x="310" y="190" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-124" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;\lhyh\program\lhyh\src\engine\Lhyh\Services/GameService.Rpc.cs&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-120">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-124" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;\lhyh\program\lhyh\src\engine\Lhyh\Services/GameService.Rpc.cs&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-120" vertex="1">
           <mxGeometry x="540" y="50" width="470" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-122" value="添加&lt;div&gt;请求函数&lt;div&gt;响应函数&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-124">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-122" value="添加&lt;div&gt;请求函数&lt;div&gt;响应函数&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-124" vertex="1">
           <mxGeometry x="40" y="40" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.107;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-120" source="0biHZN4C3_d4LbFX7kYq-121" target="0biHZN4C3_d4LbFX7kYq-124">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-125" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.107;entryDx=0;entryDy=0;entryPerimeter=0;" parent="0biHZN4C3_d4LbFX7kYq-120" source="0biHZN4C3_d4LbFX7kYq-121" target="0biHZN4C3_d4LbFX7kYq-124" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-131" value="Lhyh端手动生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0biHZN4C3_d4LbFX7kYq-125">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-131" value="Lhyh端手动生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="0biHZN4C3_d4LbFX7kYq-125" vertex="1" connectable="0">
           <mxGeometry x="0.0054" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-127" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;ProtocolCallback.cs&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-120">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-127" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;ProtocolCallback.cs&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-120" vertex="1">
           <mxGeometry x="540" y="190" width="470" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-128" value="会为RpcToEngine类的函数注册函数&lt;div&gt;Register(RequestOpenView.Parser,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;LhyhRpcProtocols.RpcToEngine.RpcRequestOpenView,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;OnRPCRequestOpenView);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-127">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-128" value="会为RpcToEngine类的函数注册函数&lt;div&gt;Register(RequestOpenView.Parser,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;LhyhRpcProtocols.RpcToEngine.RpcRequestOpenView,&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;OnRPCRequestOpenView);&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-127" vertex="1">
           <mxGeometry x="40" y="40" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-129" value="直接使用RpcFromEngine的&lt;div&gt;SendRpc(LhyhRpcProtocols.RpcFromEngine.RpcHello, info)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-127">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-129" value="直接使用RpcFromEngine的&lt;div&gt;SendRpc(LhyhRpcProtocols.RpcFromEngine.RpcHello, info)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-127" vertex="1">
           <mxGeometry x="40" y="110" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="0biHZN4C3_d4LbFX7kYq-120" source="0biHZN4C3_d4LbFX7kYq-136" target="0biHZN4C3_d4LbFX7kYq-121">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-137" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="0biHZN4C3_d4LbFX7kYq-120" source="0biHZN4C3_d4LbFX7kYq-136" target="0biHZN4C3_d4LbFX7kYq-121" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-136" value="定义RPC函数名" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-120">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-136" value="定义RPC函数名" style="swimlane;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-120" vertex="1">
           <mxGeometry x="10" y="110" width="230" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-133" value="LhyhAllRpcProtocols.Release.cs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-136">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-133" value="LhyhAllRpcProtocols.Release.cs" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-136" vertex="1">
           <mxGeometry x="2.5" y="40" width="225" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-134" value="LhyhAllRpcProtocols.MaterialEditor.cs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-136">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-134" value="LhyhAllRpcProtocols.MaterialEditor.cs" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-136" vertex="1">
           <mxGeometry y="110" width="230" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="0biHZN4C3_d4LbFX7kYq-135" value="LhyhAllRpcProtocols.Development.cs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="0biHZN4C3_d4LbFX7kYq-136">
+        <mxCell id="0biHZN4C3_d4LbFX7kYq-135" value="LhyhAllRpcProtocols.Development.cs" style="rounded=0;whiteSpace=wrap;html=1;" parent="0biHZN4C3_d4LbFX7kYq-136" vertex="1">
           <mxGeometry y="180" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
