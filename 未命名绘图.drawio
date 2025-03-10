@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="4496" dy="1792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4123" dy="1596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3788,7 +3788,7 @@
           <mxGeometry x="40" y="230" width="210" height="40" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-145" value="StartLhyhEditor" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="4080" width="280" height="200" as="geometry" />
+          <mxGeometry x="370" y="4080" width="390" height="200" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-152" value="InitializeLhyhServices（）&lt;div&gt;注册各种服务&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-145">
           <mxGeometry x="10" y="30" width="170" height="40" as="geometry" />
@@ -3796,11 +3796,11 @@
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-157" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;RegisterLhyhEngineModule&amp;lt;LhyhSceneModule&amp;gt;(lhyhSceneModule); 注册相关模块（以场景为例）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-145">
           <mxGeometry x="10" y="80" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-155" value="InitializeLhyhServices（）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-145">
-          <mxGeometry x="10" y="80" width="170" height="40" as="geometry" />
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-155" value="&lt;div&gt;设置lhyh启动方式&lt;/div&gt;LhyhEngineFacade.Instance.Initialize(LhyhEngineMode.Application);" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-145">
+          <mxGeometry x="10" y="130" width="360" height="40" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-146" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;InitializeServices（注册各种服务）&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="730" y="4060" width="400" height="460" as="geometry" />
+          <mxGeometry x="1320" y="4070" width="400" height="460" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-147" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;InitializeServices（注册各种）&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-146">
           <mxGeometry x="10" y="40" width="360" height="260" as="geometry" />
@@ -3824,6 +3824,9 @@
           <mxGeometry x="0.183" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-160" value="LhyhEngineFacade.cs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="4210" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
