@@ -3516,7 +3516,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-102" value="ProxyHandler自动生成代码" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="1900" width="1020" height="430" as="geometry" />
+          <mxGeometry x="235" y="1880" width="1020" height="430" as="geometry" />
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.004;entryY=0.159;entryDx=0;entryDy=0;entryPerimeter=0;" parent="0biHZN4C3_d4LbFX7kYq-102" source="0biHZN4C3_d4LbFX7kYq-104" target="0biHZN4C3_d4LbFX7kYq-123" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -3577,7 +3577,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-120" value="定义RPC交互函数" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="2390" width="1030" height="390" as="geometry" />
+          <mxGeometry x="235" y="2350" width="1030" height="390" as="geometry" />
         </mxCell>
         <mxCell id="0biHZN4C3_d4LbFX7kYq-130" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" parent="0biHZN4C3_d4LbFX7kYq-120" source="0biHZN4C3_d4LbFX7kYq-121" target="0biHZN4C3_d4LbFX7kYq-127" edge="1">
           <mxGeometry relative="1" as="geometry" />
