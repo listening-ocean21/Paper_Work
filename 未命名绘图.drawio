@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="4986" dy="2048" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4291" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3768,6 +3768,51 @@
           <mxGeometry x="0.1543" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-135" value="LhyhSceneModule" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-260" y="4070" width="360" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-136" value="LhyhSceneModule（）场景模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-135">
+          <mxGeometry x="40" y="40" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-137" value="LhyhSceneTimelineModule（）&lt;div&gt;场景Timeline模块&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-135">
+          <mxGeometry x="40" y="85" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-142" value="LhyhSceneActorModule（）&lt;div&gt;场景Actor模块&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-135">
+          <mxGeometry x="40" y="130" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-143" value="LhyhEnvironmentModule（）&lt;div&gt;场景环境模块&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-135">
+          <mxGeometry x="40" y="180" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-144" value="LhyhAudioModule（）&lt;div&gt;场景音频模块&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-135">
+          <mxGeometry x="40" y="230" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-145" value="StartLhyhEditor" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="4080" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-152" value="InitializeLhyhServices（）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-145">
+          <mxGeometry x="10" y="30" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-155" value="InitializeLhyhServices（）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-145">
+          <mxGeometry x="10" y="80" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-146" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;InitializeServices（注册各种服务）&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="580" y="4070" width="400" height="460" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-147" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;InitializeServices（注册各种）&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-146">
+          <mxGeometry x="10" y="40" width="360" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-148" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;ServiceManager.Instance.Register(new ChildProcessManager());&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;XQ28\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;|linespacing:\&amp;quot;115\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 115%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;ServiceManager.Instance.Register(new ChildProcessManager());主要做进程管理&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-147">
+          <mxGeometry x="15" y="40" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-149" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;ServiceManager.Instance.Register(new ChildProcessManager());&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;XQ28\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;|linespacing:\&amp;quot;115\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 115%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;ServiceManager.Instance.Register(new RpcService());&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-147">
+          <mxGeometry x="15" y="120" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-150" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;ServiceManager.Instance.Register(new ChildProcessManager());&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;XQ28\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;|linespacing:\&amp;quot;115\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 115%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;ServiceManager.Instance.Register(new GameService());&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-147">
+          <mxGeometry x="15" y="190" width="300" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-151" value="&lt;div style=&quot;text-align: start;&quot;&gt;&lt;span data-copy-origin=&quot;https://shimo.im&quot; data-docs-delta=&quot;[[20,&amp;quot;ServiceManager.Instance.Register(new ChildProcessManager());&amp;quot;,&amp;quot;inline-dir:\&amp;quot;ltr\&amp;quot;&amp;quot;],[20,&amp;quot;\n&amp;quot;,&amp;quot;24:\&amp;quot;XQ28\&amp;quot;|direction:\&amp;quot;ltr\&amp;quot;|linespacing:\&amp;quot;115\&amp;quot;&amp;quot;]]&quot;&gt;&lt;p style=&quot;line-height: 115%; margin-bottom: 0pt; margin-top: 0pt; font-size: 11pt; color: rgb(73, 73, 73);&quot; class=&quot;ql-direction-ltr&quot;&gt;&lt;span class=&quot;ql-author-48966372&quot;&gt;ServiceManager.Instance.Startup();会遍历启动以上注册的服务的startup&lt;/span&gt;&lt;/p&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-146">
+          <mxGeometry x="20" y="320" width="300" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
