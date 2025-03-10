@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="4123" dy="1596" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3878" dy="1468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3826,7 +3826,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-160" value="LhyhEngineFacade.cs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="827" y="4210" width="200" height="200" as="geometry" />
+          <mxGeometry x="827" y="4210" width="210" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-162" value="Initialize(LhyhEngineMode lhyhType)（初始化）" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="1">
+          <mxGeometry x="627" y="4280" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-161" value="若不是game单独启动lhyh模式,则注册LhyhEditorModule&lt;div&gt;RegisterLhyhEngineModule(new LhyhEditor.&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 12, 54));&quot;&gt;LhyhEditorModule&lt;/font&gt;());&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-162">
+          <mxGeometry x="13" y="40" width="187" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
