@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="4548" dy="1819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4809" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3769,26 +3769,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-135" value="LhyhEngineFacade（）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="3480" width="360" height="310" as="geometry" />
-        </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-136" value="LhyhSceneModule（）场景模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-135">
-          <mxGeometry x="40" y="40" width="210" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-137" value="LhyhSceneTimelineModule（）&lt;div&gt;场景Timeline模块&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-135">
-          <mxGeometry x="40" y="85" width="210" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-142" value="LhyhSceneActorModule（）&lt;div&gt;场景Actor模块&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-135">
-          <mxGeometry x="40" y="130" width="210" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-143" value="LhyhEnvironmentModule（）&lt;div&gt;场景环境模块&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-135">
-          <mxGeometry x="40" y="180" width="210" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-144" value="LhyhAudioModule（）&lt;div&gt;场景音频模块&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-135">
-          <mxGeometry x="40" y="230" width="210" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-146" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;InitializeServices（注册各种服务）&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="1320" y="4070" width="400" height="460" as="geometry" />
+          <mxGeometry x="1030" y="3590" width="400" height="460" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-147" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;InitializeServices（注册各种）&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-146">
           <mxGeometry x="10" y="40" width="360" height="260" as="geometry" />
@@ -3814,16 +3796,36 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-160" value="LhyhEngineFacade.cs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="4170" width="210" height="200" as="geometry" />
+          <mxGeometry x="800" y="4170" width="460" height="460" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-162" value="Initialize(LhyhEngineMode lhyhType)（初始化）" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-160">
-          <mxGeometry x="5" y="35" width="200" height="130" as="geometry" />
+          <mxGeometry x="20" y="310" width="200" height="130" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-161" value="若不是game单独启动lhyh模式,则注册LhyhEditorModule&lt;div&gt;RegisterLhyhEngineModule(new LhyhEditor.&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 12, 54));&quot;&gt;LhyhEditorModule&lt;/font&gt;());&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-162">
           <mxGeometry x="13" y="40" width="187" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-136" value="LhyhSceneModule（）场景模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-160">
+          <mxGeometry y="45" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-137" value="LhyhSceneTimelineModule（）&lt;div&gt;场景Timeline模块&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-160">
+          <mxGeometry y="100" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-142" value="LhyhSceneActorModule（）&lt;div&gt;场景Actor模块&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-160">
+          <mxGeometry x="10" y="160" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-143" value="LhyhEnvironmentModule（）&lt;div&gt;场景环境模块&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-160">
+          <mxGeometry x="10" y="210" width="210" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-144" value="LhyhAudioModule（）&lt;div&gt;场景音频模块&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-160">
+          <mxGeometry x="10" y="260" width="210" height="40" as="geometry" />
+        </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-163" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.158;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-155" target="t3vcy9BpPLN0f5ZR2rbg-162">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-209" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t3vcy9BpPLN0f5ZR2rbg-163">
+          <mxGeometry x="-0.1054" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-165" value="LhyhEditorLifetime.cs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="4050" width="430" height="505" as="geometry" />
@@ -3853,7 +3855,7 @@
           <mxGeometry x="10" y="80" width="270" height="40" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-177" value="注意事项" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1060" y="4420" width="200" height="200" as="geometry" />
+          <mxGeometry x="1160" y="4740" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-178" value="GetLhyhApplicationConfig（原来的GameConstData数据）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-177">
           <mxGeometry x="8" y="30" width="192" height="60" as="geometry" />
