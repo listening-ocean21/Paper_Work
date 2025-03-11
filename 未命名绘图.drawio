@@ -3876,7 +3876,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-184" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;订阅OnGameStarted&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-820" y="4230" width="230" height="200" as="geometry">
+          <mxGeometry x="-820" y="4230" width="230" height="220" as="geometry">
             <mxRectangle x="40" y="4160" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -3885,6 +3885,20 @@
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-186" value="LhyhGuiApplication.OnGameStarted" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-184">
           <mxGeometry x="5" y="30" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-203" value="获取lhyhApplicationConfig" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-184">
+          <mxGeometry y="170" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#FF3333);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-187" target="t3vcy9BpPLN0f5ZR2rbg-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-199" value="订阅该事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t3vcy9BpPLN0f5ZR2rbg-198">
+          <mxGeometry x="0.0804" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-202" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FF0C36);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-187" target="t3vcy9BpPLN0f5ZR2rbg-201">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-187" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;LhyhSceneModule.OnLhyhSceneOpened&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-420" y="4260" width="260" height="50" as="geometry">
@@ -3900,11 +3914,19 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-193" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;LhyhGuiApplication.cs&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="4240" width="230" height="200" as="geometry">
+          <mxGeometry x="-80" y="4240" width="230" height="100" as="geometry">
             <mxRectangle x="40" y="4160" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-195" value="OnLhyhSceneOpened():&lt;div&gt;主要获取主窗口标题/获取MipMapImage/加载timeline&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-193">
+          <mxGeometry x="5" y="30" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-200" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;GameService.cs&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="4380" width="230" height="100" as="geometry">
+            <mxRectangle x="40" y="4160" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-201" value="LhyhSceneModule_OnLhyhSceneOpened;&lt;div&gt;更新最近地图&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-200">
           <mxGeometry x="5" y="30" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
