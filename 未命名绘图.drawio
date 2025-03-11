@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="4364" dy="1722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4548" dy="1819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3769,8 +3769,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-135" value="LhyhSceneModule" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="70" y="3540" width="360" height="310" as="geometry" />
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-135" value="LhyhEngineFacade（）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="3480" width="360" height="310" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-136" value="LhyhSceneModule（）场景模块" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-135">
           <mxGeometry x="40" y="40" width="210" height="40" as="geometry" />
@@ -3859,13 +3859,16 @@
           <mxGeometry x="8" y="30" width="192" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-179" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;OnFrameworkInitializationCompleted&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="-240" y="3980" width="250" height="200" as="geometry" />
+          <mxGeometry x="-1330" y="4020" width="350" height="300" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-180" value="LhyhEditorLifetime.StartLhyhEditor();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-179">
           <mxGeometry x="15" y="40" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-181" value="&lt;div&gt;订阅游戏开始事件&lt;/div&gt;LhyhEditorLifetime.OnGameStarted += LhyhGuiApplication.OnGameStarted;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-179">
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-181" value="&lt;div&gt;订阅游戏开始事件&lt;/div&gt;LhyhEditorLifetime.&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;OnGameStarted&lt;/font&gt; += LhyhGuiApplication.OnGameStarted;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-179">
           <mxGeometry x="15" y="110" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-206" value="当游戏准备好时（RpcGameReady响应），会调用AfterGameStartup（），内部会执行&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 12, 54));&quot;&gt;OnGameStarted&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-179">
+          <mxGeometry x="10" y="210" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.039;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-180" target="t3vcy9BpPLN0f5ZR2rbg-145">
           <mxGeometry relative="1" as="geometry" />
@@ -3928,6 +3931,22 @@
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-201" value="LhyhSceneModule_OnLhyhSceneOpened;&lt;div&gt;更新最近地图&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-200">
           <mxGeometry x="5" y="30" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#FF3333);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-181" target="t3vcy9BpPLN0f5ZR2rbg-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-205" value="订阅事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t3vcy9BpPLN0f5ZR2rbg-204">
+          <mxGeometry x="-0.21" y="-4" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.068;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FF0C36);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-206" target="t3vcy9BpPLN0f5ZR2rbg-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-208" value="发布" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t3vcy9BpPLN0f5ZR2rbg-207">
+          <mxGeometry x="-0.0222" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
