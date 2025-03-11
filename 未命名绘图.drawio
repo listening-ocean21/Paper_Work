@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="4291" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4364" dy="1722" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3859,16 +3859,53 @@
           <mxGeometry x="8" y="30" width="192" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-179" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;OnFrameworkInitializationCompleted&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="-90" y="4010" width="240" height="200" as="geometry" />
+          <mxGeometry x="-240" y="3980" width="250" height="200" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-180" value="LhyhEditorLifetime.StartLhyhEditor();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-179">
           <mxGeometry x="15" y="40" width="210" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-181" value="添加desktop启动前后事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-179">
-          <mxGeometry x="30" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-181" value="&lt;div&gt;订阅游戏开始事件&lt;/div&gt;LhyhEditorLifetime.OnGameStarted += LhyhGuiApplication.OnGameStarted;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-179">
+          <mxGeometry x="15" y="110" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.039;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-180" target="t3vcy9BpPLN0f5ZR2rbg-145">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-192" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t3vcy9BpPLN0f5ZR2rbg-183">
+          <mxGeometry x="0.0669" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-184" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;订阅OnGameStarted&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="4230" width="230" height="200" as="geometry">
+            <mxRectangle x="40" y="4160" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-185" value="&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;初始游戏资源数据&lt;span style=&quot;white-space:pre&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;GameConstDataWrapper.InitByData()&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-184">
+          <mxGeometry y="100" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-186" value="LhyhGuiApplication.OnGameStarted" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-184">
+          <mxGeometry x="5" y="30" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-187" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;LhyhSceneModule.OnLhyhSceneOpened&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="4260" width="260" height="50" as="geometry">
+            <mxRectangle x="40" y="4160" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-190" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.002;entryY=0.08;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FF0C36);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-186" target="t3vcy9BpPLN0f5ZR2rbg-187">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-191" value="内部订阅该事件" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t3vcy9BpPLN0f5ZR2rbg-190">
+          <mxGeometry x="0.034" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-193" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;LhyhGuiApplication.cs&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="4240" width="230" height="200" as="geometry">
+            <mxRectangle x="40" y="4160" width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-195" value="OnLhyhSceneOpened():&lt;div&gt;主要获取主窗口标题/获取MipMapImage/加载timeline&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-193">
+          <mxGeometry x="5" y="30" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
