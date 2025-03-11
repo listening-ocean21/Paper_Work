@@ -3876,7 +3876,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-184" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;订阅OnGameStarted&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-820" y="4230" width="230" height="220" as="geometry">
+          <mxGeometry x="-820" y="4230" width="230" height="240" as="geometry">
             <mxRectangle x="40" y="4160" width="140" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
