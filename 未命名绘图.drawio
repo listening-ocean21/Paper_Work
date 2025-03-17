@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="4259" dy="1667" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4291" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3968,7 +3968,7 @@
           <mxGeometry x="1500" y="4180" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-220" value="IUnityLhyhAdapter.cs(适配器接口)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-330" y="4820" width="240" height="200" as="geometry" />
+          <mxGeometry x="500" y="5160" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-221" value="GetSceneController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-220">
           <mxGeometry x="5" y="30" width="225" height="30" as="geometry" />
@@ -3983,7 +3983,7 @@
           <mxGeometry x="5" y="150" width="225" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-231" value="UnityLhyhAdapter.cs&lt;br&gt;（）具体实现" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="4820" width="240" height="220" as="geometry" />
+          <mxGeometry x="750" y="5160" width="240" height="220" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-232" value="GetSceneController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-231">
           <mxGeometry x="5" y="50" width="225" height="30" as="geometry" />
@@ -3997,14 +3997,62 @@
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-235" value="GenerateModelPreview" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-231">
           <mxGeometry x="7.5" y="180" width="225" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-236" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="230" y="4960" width="200" height="200" as="geometry" />
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-236" value="interface&lt;div&gt;&amp;nbsp;ILhyhPreviewMethod&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="450" y="4865" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-243" value="GenerateModelPreview" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-236">
+          <mxGeometry x="20" y="55" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-237" value="LhyhPreviewModule（预览模块）" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="-210" y="5070" width="240" height="220" as="geometry" />
+          <mxGeometry x="-290" y="5080" width="240" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-241" value="GenerateModelPreview" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-237">
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-241" value="RegisterSupportedPreviewAssetType（注册支持资源预览的类型）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-237">
           <mxGeometry x="7.5" y="50" width="225" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-242" value="GenerateModelPreviewAsync（）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-237">
+          <mxGeometry x="7.5" y="95" width="225" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-246" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;dashed=1;fillColor=#008a00;strokeColor=light-dark(#000000,#00CC00);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-244" target="t3vcy9BpPLN0f5ZR2rbg-236">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-247" value="继承接口" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t3vcy9BpPLN0f5ZR2rbg-246">
+          <mxGeometry x="0.1173" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-244" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;LhyhPreviewMethod&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
+          <mxGeometry x="80" y="5110" width="260" height="255" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-250" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;GenerateModelPreview&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-244">
+          <mxGeometry x="10" y="55" width="250" height="105" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-252" value="&amp;nbsp;UnityLhyh.UnityLhyhUtility.&lt;div&gt;UnityLhyhAdapter.GenerateModelPreview&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-250">
+          <mxGeometry y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-256" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 12, 54));&quot;&gt;SendRpc&lt;/font&gt;（GenerateAssetPreviewResult）" style="whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-250">
+          <mxGeometry x="10" y="65" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-248" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-242" target="t3vcy9BpPLN0f5ZR2rbg-250">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="5240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="130" y="5180" />
+              <mxPoint x="130" y="5180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-251" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t3vcy9BpPLN0f5ZR2rbg-248">
+          <mxGeometry x="-0.5682" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-257" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FF3333);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-252" target="t3vcy9BpPLN0f5ZR2rbg-224">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-258" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t3vcy9BpPLN0f5ZR2rbg-257">
+          <mxGeometry x="-0.0353" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
