@@ -4003,17 +4003,8 @@
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-237" value="LhyhPreviewModule（预览模块）" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
           <mxGeometry x="-210" y="5070" width="240" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-238" value="GetSceneController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-237">
-          <mxGeometry x="5" y="50" width="225" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-239" value="GetPhysicsController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-237">
-          <mxGeometry x="5" y="90" width="225" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-240" value="LhyhLayerMaskConvertToUnityLayerMask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-237">
-          <mxGeometry x="7.5" y="140" width="225" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-241" value="GenerateModelPreview" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-237">
-          <mxGeometry x="7.5" y="180" width="225" height="30" as="geometry" />
+          <mxGeometry x="7.5" y="50" width="225" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
