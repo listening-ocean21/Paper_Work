@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="4291" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5209" dy="2165" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3860,8 +3860,8 @@
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-174" value="&lt;div&gt;关闭各个服务&lt;/div&gt;ServiceManager.Instance.Shutdown();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-172">
           <mxGeometry x="10" y="80" width="270" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-177" value="注意事项" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1160" y="4740" width="200" height="200" as="geometry" />
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-177" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(240, 240, 240));&quot;&gt;注意事项&lt;/font&gt;&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;gradientColor=default;fillColor=light-dark(#000000,#FF0000);" vertex="1" parent="1">
+          <mxGeometry x="880" y="4730" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-178" value="GetLhyhApplicationConfig（原来的GameConstData数据）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-177">
           <mxGeometry x="8" y="30" width="192" height="60" as="geometry" />
@@ -3967,6 +3967,14 @@
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-219" value="LhyhSceneModule模块" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1500" y="4180" width="200" height="200" as="geometry" />
         </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-268" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#008a00;strokeColor=#005700;dashed=1;" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-220" target="t3vcy9BpPLN0f5ZR2rbg-263">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-269" value="继承" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t3vcy9BpPLN0f5ZR2rbg-268">
+          <mxGeometry x="-0.2402" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-220" value="IUnityLhyhAdapter.cs(适配器接口)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="500" y="5160" width="240" height="200" as="geometry" />
         </mxCell>
@@ -4040,7 +4048,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-263" value="UnityLhyhAdapter.cs(具体实现)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="770" y="5160" width="240" height="200" as="geometry" />
+          <mxGeometry x="800" y="5160" width="300" height="230" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-264" value="GetSceneController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-263">
           <mxGeometry x="5" y="30" width="225" height="30" as="geometry" />
@@ -4051,8 +4059,32 @@
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-266" value="LhyhLayerMaskConvertToUnityLayerMask" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-263">
           <mxGeometry x="5" y="110" width="225" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-267" value="GenerateModelPreview" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-263">
-          <mxGeometry x="5" y="150" width="225" height="30" as="geometry" />
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-271" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;GenerateModelPreview函数&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-263">
+          <mxGeometry x="5" y="150" width="290" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-270" value="RuntimePreviewGenerator.GenerateModelPreview" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-271">
+          <mxGeometry x="11.25" y="30" width="267.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-273" value="RuntimePreviewGenerator.cs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1200" y="5261" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-275" value="GenerateModelPreview函数的具体实现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-273">
+          <mxGeometry x="4" y="39" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-276" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FF0C36);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-270" target="t3vcy9BpPLN0f5ZR2rbg-275">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-224" target="t3vcy9BpPLN0f5ZR2rbg-270">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-280" value="AvaloniaLhyhAssetPreviewManager" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="4520" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-281" value="GetAssetPreview" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-280">
+          <mxGeometry x="40" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-282" value="LhyhPreviewModule模块" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="4510" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
