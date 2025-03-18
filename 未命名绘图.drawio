@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="5209" dy="2165" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4548" dy="1819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -3867,16 +3867,19 @@
           <mxGeometry x="8" y="30" width="192" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-179" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;OnFrameworkInitializationCompleted&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="-1330" y="4020" width="350" height="300" as="geometry" />
+          <mxGeometry x="-1330" y="3890" width="350" height="430" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-180" value="LhyhEditorLifetime.StartLhyhEditor();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-179">
-          <mxGeometry x="15" y="40" width="210" height="60" as="geometry" />
+          <mxGeometry x="5" y="125" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-181" value="&lt;div&gt;订阅游戏开始事件&lt;/div&gt;LhyhEditorLifetime.&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;OnGameStarted&lt;/font&gt; += LhyhGuiApplication.OnGameStarted;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-179">
-          <mxGeometry x="15" y="110" width="220" height="60" as="geometry" />
+          <mxGeometry x="5" y="210" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-206" value="当游戏准备好时（RpcGameReady响应），会调用AfterGameStartup（），内部会执行&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 12, 54));&quot;&gt;OnGameStarted&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-179">
-          <mxGeometry x="10" y="210" width="220" height="60" as="geometry" />
+          <mxGeometry x="5" y="290" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-304" value="AvaloniaLhyhUtility.SetAvaloniaLhyhAdapter（）&lt;div&gt;设置sceneController用于场景加载功能&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-179">
+          <mxGeometry x="5" y="50" width="345" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.008;entryY=0.039;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-180" target="t3vcy9BpPLN0f5ZR2rbg-145">
           <mxGeometry relative="1" as="geometry" />
@@ -3976,7 +3979,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-220" value="IUnityLhyhAdapter.cs(适配器接口)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="500" y="5160" width="240" height="200" as="geometry" />
+          <mxGeometry x="2145" y="5310" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-221" value="GetSceneController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-220">
           <mxGeometry x="5" y="30" width="225" height="30" as="geometry" />
@@ -3991,13 +3994,13 @@
           <mxGeometry x="5" y="150" width="225" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-236" value="interface&lt;div&gt;&amp;nbsp;ILhyhPreviewMethod&lt;/div&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="450" y="4865" width="200" height="110" as="geometry" />
+          <mxGeometry x="2105" y="5150" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-243" value="GenerateModelPreview" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-236">
           <mxGeometry x="20" y="55" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-237" value="LhyhPreviewModule（预览模块）" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="-290" y="5080" width="240" height="220" as="geometry" />
+          <mxGeometry x="1355" y="5230" width="240" height="220" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-241" value="RegisterSupportedPreviewAssetType（注册支持资源预览的类型）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-237">
           <mxGeometry x="7.5" y="50" width="225" height="30" as="geometry" />
@@ -4014,7 +4017,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-244" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;LhyhPreviewMethod&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=40;" vertex="1" parent="1">
-          <mxGeometry x="80" y="5110" width="260" height="255" as="geometry" />
+          <mxGeometry x="1725" y="5260" width="260" height="255" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-250" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;GenerateModelPreview&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-244">
           <mxGeometry x="10" y="55" width="250" height="105" as="geometry" />
@@ -4027,10 +4030,10 @@
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-248" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-242" target="t3vcy9BpPLN0f5ZR2rbg-250">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="90" y="5240" as="targetPoint" />
+            <mxPoint x="1735" y="5390" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="130" y="5180" />
-              <mxPoint x="130" y="5180" />
+              <mxPoint x="1775" y="5330" />
+              <mxPoint x="1775" y="5330" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -4048,7 +4051,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-263" value="UnityLhyhAdapter.cs(具体实现)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="800" y="5160" width="300" height="230" as="geometry" />
+          <mxGeometry x="2445" y="5310" width="300" height="230" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-264" value="GetSceneController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-263">
           <mxGeometry x="5" y="30" width="225" height="30" as="geometry" />
@@ -4066,7 +4069,7 @@
           <mxGeometry x="11.25" y="30" width="267.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-273" value="RuntimePreviewGenerator.cs" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1200" y="5261" width="200" height="200" as="geometry" />
+          <mxGeometry x="2845" y="5411" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-275" value="GenerateModelPreview函数的具体实现" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-273">
           <mxGeometry x="4" y="39" width="120" height="60" as="geometry" />
@@ -4077,14 +4080,60 @@
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-277" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-224" target="t3vcy9BpPLN0f5ZR2rbg-270">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-280" value="AvaloniaLhyhAssetPreviewManager" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="4520" width="250" height="200" as="geometry" />
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-280" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;AvaloniaLhyhAssetPreviewManager&lt;/font&gt;" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="1370" y="4520" width="250" height="200" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-281" value="GetAssetPreview" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-280">
           <mxGeometry x="40" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-282" value="LhyhPreviewModule模块" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1700" y="4510" width="200" height="200" as="geometry" />
+          <mxGeometry x="1700" y="4510" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-283" value="GenerateModelPreviewAsync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-282">
+          <mxGeometry x="10" y="40" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-284" value="ILhyhPreviewMethod" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1990" y="4510" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-285" value="GenerateModelPreview" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-284">
+          <mxGeometry x="10" y="40" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-286" value="LhyhPreviewMethod" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2290" y="4510" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-287" value="GenerateModelPreview异步加载" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-286">
+          <mxGeometry x="10" y="40" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-288" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;GenerateModelPreview异步加载&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2680" y="4570" width="370" height="200" as="geometry">
+            <mxRectangle x="2290" y="4830" width="210" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-289" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 12, 54));&quot;&gt;SendRpc&lt;/font&gt;&lt;div&gt;(OperateRpc_GenerateAssetPreview）请求&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-288">
+          <mxGeometry x="20" y="40" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-290" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FF3333);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-281" target="t3vcy9BpPLN0f5ZR2rbg-283">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-291" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FF0000);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-283" target="t3vcy9BpPLN0f5ZR2rbg-285">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-292" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#000000,#FF0C36);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-285" target="t3vcy9BpPLN0f5ZR2rbg-287">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-295" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.051;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FF3333);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-287" target="t3vcy9BpPLN0f5ZR2rbg-288">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-296" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="t3vcy9BpPLN0f5ZR2rbg-295">
+          <mxGeometry x="0.359" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-298" value="UnityLhyhUtility" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1355" y="5510" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-299" value="InitializeUnityLhyh函数" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="5570" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
