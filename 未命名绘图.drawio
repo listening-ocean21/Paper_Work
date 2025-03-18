@@ -3968,10 +3968,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-219" value="LhyhSceneModule模块" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1610" y="4170" width="200" height="200" as="geometry" />
+          <mxGeometry x="1610" y="4170" width="200" height="225" as="geometry" />
         </mxCell>
-        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-308" value="OpenMainLSceneAsync" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-219">
-          <mxGeometry x="10" y="30" width="180" height="40" as="geometry" />
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-309" value="OpenMainLSceneAsync" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-219">
+          <mxGeometry x="20" y="35" width="150" height="135" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-268" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#008a00;strokeColor=#005700;dashed=1;" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-220" target="t3vcy9BpPLN0f5ZR2rbg-263">
           <mxGeometry relative="1" as="geometry" />
