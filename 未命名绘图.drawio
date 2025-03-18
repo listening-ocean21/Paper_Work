@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="4291" dy="1684" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4548" dy="1819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4145,19 +4145,34 @@
           <mxGeometry x="-710" y="3530" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-306" value="LhyhSceneMethod" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1968" y="4170" width="212" height="240" as="geometry" />
+          <mxGeometry x="1930" y="4162.5" width="550" height="277.5" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-312" value="OpenMainSceneAsync" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-306">
-          <mxGeometry x="6" y="35" width="200" height="125" as="geometry" />
+          <mxGeometry x="6" y="105" width="200" height="155" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-314" value="&lt;div&gt;发送打开地图的请求，并做轮询&lt;/div&gt;&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 51, 51));&quot;&gt;SendRpc&lt;/font&gt;&lt;div&gt;(OperateRpc_OpenMap）&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-312">
           <mxGeometry x="11" y="30" width="174" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-321" value="等game端返回结果，触发&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;OnMainSceneOpened&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-312">
+          <mxGeometry x="14" y="92.5" width="176" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-319" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 12, 54));&quot;&gt;会注册游戏端返回地图结果触发事件&lt;/font&gt;RegisterRpc(OperateRpc_OpenMapResult，&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 0, 0));&quot;&gt;OnMainSceneOpened&lt;/font&gt;）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-306">
+          <mxGeometry x="6" y="30" width="288" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-322" value="&lt;span style=&quot;color: rgb(255, 144, 144); font-weight: 400;&quot;&gt;OnMainSceneOpened&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-306">
+          <mxGeometry x="250" y="105" width="200" height="155" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-323" value="sceneController.SetMiniMap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-322">
+          <mxGeometry x="11" y="30" width="174" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t3vcy9BpPLN0f5ZR2rbg-324" value="等game端返回结果，触发&lt;span style=&quot;color: rgb(255, 0, 0);&quot;&gt;OnMainSceneOpened&lt;/span&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-322">
+          <mxGeometry x="14" y="92.5" width="176" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-313" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.007;entryY=0.044;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=light-dark(#000000,#FF0C36);" edge="1" parent="1" source="t3vcy9BpPLN0f5ZR2rbg-310" target="t3vcy9BpPLN0f5ZR2rbg-312">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-315" value="轮询机制，直至&lt;span style=&quot;font-weight: 400; text-align: left;&quot;&gt;_isWaitingForOpenMainScene为false&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="2230" y="4220" width="520" height="140" as="geometry" />
+          <mxGeometry x="2325" y="4000" width="520" height="140" as="geometry" />
         </mxCell>
         <mxCell id="t3vcy9BpPLN0f5ZR2rbg-317" value="return Task.Run(() =&gt;&#xa;            {&#xa;                var res = SpinWait.SpinUntil(() =&gt; !_isWaitingForOpenMainScene, 1000 * 60 * 10);&#xa;                if (!res)&#xa;                    throw new System.Exception(&quot;Open scene timeout&quot;);&#xa;            });" style="text;whiteSpace=wrap;" vertex="1" parent="t3vcy9BpPLN0f5ZR2rbg-315">
           <mxGeometry x="10" y="35" width="520" height="110" as="geometry" />
