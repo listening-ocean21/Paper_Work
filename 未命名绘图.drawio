@@ -4184,7 +4184,7 @@
           <mxGeometry x="10" y="35" width="520" height="110" as="geometry" />
         </mxCell>
         <mxCell id="U1svRiqSCKR2McD-u_u0-1" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;RequestViewImage&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1130" y="5930" width="240" height="200" as="geometry" />
+          <mxGeometry x="1150" y="5930" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="U1svRiqSCKR2McD-u_u0-2" value="RpcToEngine.RpcRequestViewImage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-1">
           <mxGeometry x="10.5" y="30" width="219" height="30" as="geometry" />
