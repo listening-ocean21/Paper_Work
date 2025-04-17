@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="4285" dy="1726" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4696" dy="1961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4285,7 +4285,7 @@
           <mxGeometry x="12" y="80" width="178" height="40" as="geometry" />
         </mxCell>
         <mxCell id="U1svRiqSCKR2McD-u_u0-1" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;RequestViewImage&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-16">
-          <mxGeometry x="1120" y="117.5" width="240" height="200" as="geometry" />
+          <mxGeometry x="1008" y="100" width="240" height="200" as="geometry" />
         </mxCell>
         <mxCell id="U1svRiqSCKR2McD-u_u0-2" value="RpcToEngine.RpcRequestViewImage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-1">
           <mxGeometry x="10.5" y="30" width="219" height="30" as="geometry" />
@@ -4293,7 +4293,7 @@
         <mxCell id="U1svRiqSCKR2McD-u_u0-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.025;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U1svRiqSCKR2McD-u_u0-16" source="U1svRiqSCKR2McD-u_u0-9" target="U1svRiqSCKR2McD-u_u0-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="U1svRiqSCKR2McD-u_u0-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="U1svRiqSCKR2McD-u_u0-16" source="U1svRiqSCKR2McD-u_u0-53" target="U1svRiqSCKR2McD-u_u0-1">
+        <mxCell id="U1svRiqSCKR2McD-u_u0-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="U1svRiqSCKR2McD-u_u0-16" source="U1svRiqSCKR2McD-u_u0-53" target="U1svRiqSCKR2McD-u_u0-2">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="1080" y="565" />
@@ -4398,7 +4398,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="U1svRiqSCKR2McD-u_u0-77" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="260" y="7210" width="530" height="630" as="geometry" />
+          <mxGeometry x="260" y="7270" width="530" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="U1svRiqSCKR2McD-u_u0-112" value="SendRenderTextureResult" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-77">
+          <mxGeometry x="54" y="100" width="310" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="U1svRiqSCKR2McD-u_u0-113" value="RpcName.SyncRpc_SyncCameraRenderTextureResult" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-112">
+          <mxGeometry x="11" y="35" width="279" height="60" as="geometry" />
         </mxCell>
         <mxCell id="U1svRiqSCKR2McD-u_u0-78" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1020" y="7180" width="590" height="630" as="geometry" />
@@ -4423,6 +4429,29 @@
         </mxCell>
         <mxCell id="U1svRiqSCKR2McD-u_u0-111" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.05;entryY=0.087;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="U1svRiqSCKR2McD-u_u0-78" source="U1svRiqSCKR2McD-u_u0-80" target="U1svRiqSCKR2McD-u_u0-108">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U1svRiqSCKR2McD-u_u0-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="U1svRiqSCKR2McD-u_u0-113" target="U1svRiqSCKR2McD-u_u0-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U1svRiqSCKR2McD-u_u0-115" value="Rpc响应" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U1svRiqSCKR2McD-u_u0-114">
+          <mxGeometry x="-0.0069" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U1svRiqSCKR2McD-u_u0-116" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;RequestViewImage&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1690" y="7220" width="310" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="U1svRiqSCKR2McD-u_u0-117" value="RpcName.SyncRpc_SyncCameraRenderTexture" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-116">
+          <mxGeometry x="10.5" y="30" width="269.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="U1svRiqSCKR2McD-u_u0-118" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="U1svRiqSCKR2McD-u_u0-110" target="U1svRiqSCKR2McD-u_u0-117">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="U1svRiqSCKR2McD-u_u0-119" value="SyncRpc_SyncCameraRenderTexture-》OnSyncCameraRenderTexture" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-16" y="7040" width="470" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="U1svRiqSCKR2McD-u_u0-120" value="unityLhyhCameraBehaviour.CameraCapture.RequestViewRecording()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-119">
+          <mxGeometry x="18" y="40" width="434" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
