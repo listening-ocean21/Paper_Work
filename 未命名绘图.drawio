@@ -4207,10 +4207,10 @@
         <mxCell id="U1svRiqSCKR2McD-u_u0-34" value="SyncViewportToLhyh" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-28">
           <mxGeometry x="10" y="60" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="U1svRiqSCKR2McD-u_u0-35" value="SyncViewPivotToLhyh" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-34">
+        <mxCell id="U1svRiqSCKR2McD-u_u0-35" value="SyncViewPivotToLhyh（同步锚中点）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-34">
           <mxGeometry x="10" y="30" width="180" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="U1svRiqSCKR2McD-u_u0-40" value=".RpcFromEngine.RpcSyncView" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-34">
+        <mxCell id="U1svRiqSCKR2McD-u_u0-40" value=".RpcFromEngine.RpcSyncView（同步view相关viewPort的相机旋转和Actor旋转等信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-34">
           <mxGeometry x="10" y="70" width="180" height="30" as="geometry" />
         </mxCell>
         <mxCell id="U1svRiqSCKR2McD-u_u0-58" value="RpcSyncView-》OnRPCSetViewport" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-14">
@@ -4272,10 +4272,10 @@
         <mxCell id="U1svRiqSCKR2McD-u_u0-47" value="OpenView" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-16">
           <mxGeometry x="420" y="390" width="240" height="245" as="geometry" />
         </mxCell>
-        <mxCell id="U1svRiqSCKR2McD-u_u0-48" value="RpcToEngine.RpcRequestOpenView" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-47">
+        <mxCell id="U1svRiqSCKR2McD-u_u0-48" value="RpcToEngine.RpcRequestOpenView更新相机位置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-47">
           <mxGeometry x="14" y="35" width="218" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="U1svRiqSCKR2McD-u_u0-49" value="RequestVirtualView" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-47">
+        <mxCell id="U1svRiqSCKR2McD-u_u0-49" value="RequestVirtualView（会请求视角相关旋转）" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-47">
           <mxGeometry x="14" y="85" width="200" height="135" as="geometry" />
         </mxCell>
         <mxCell id="U1svRiqSCKR2McD-u_u0-50" value="RpcToEngine.RpcRequestView" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-49">
@@ -4452,6 +4452,16 @@
         </mxCell>
         <mxCell id="U1svRiqSCKR2McD-u_u0-120" value="unityLhyhCameraBehaviour.CameraCapture.RequestViewRecording()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="U1svRiqSCKR2McD-u_u0-119">
           <mxGeometry x="18" y="40" width="434" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="U1svRiqSCKR2McD-u_u0-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.003;entryY=0.054;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;strokeColor=light-dark(#000000,#00FF00);" edge="1" parent="1" source="U1svRiqSCKR2McD-u_u0-45" target="U1svRiqSCKR2McD-u_u0-58">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1530" y="6430" />
+              <mxPoint x="1530" y="6870" />
+              <mxPoint x="201" y="6870" />
+              <mxPoint x="201" y="6842" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
