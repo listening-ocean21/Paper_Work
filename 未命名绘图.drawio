@@ -4536,7 +4536,7 @@
           <mxGeometry x="-2670" y="2790" width="300" height="200" as="geometry" />
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-41" value="Render/DrawSkeletons（会使用到注册的UnityLhyhSkeletonRendererBehaviour）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PfIUdf0Otu2Z0FjW2T4Y-13">
-          <mxGeometry y="40" width="280" height="60" as="geometry" />
+          <mxGeometry x="10" y="40" width="280" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=1 2;" edge="1" parent="1" source="PfIUdf0Otu2Z0FjW2T4Y-14" target="PfIUdf0Otu2Z0FjW2T4Y-21">
           <mxGeometry relative="1" as="geometry" />
@@ -4638,6 +4638,14 @@
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-47" value="LCamera" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1690" y="2210" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PfIUdf0Otu2Z0FjW2T4Y-56" target="PfIUdf0Otu2Z0FjW2T4Y-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-63" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PfIUdf0Otu2Z0FjW2T4Y-62">
+          <mxGeometry x="-0.5862" y="5" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
