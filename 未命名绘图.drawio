@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="5083" dy="2109" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4803" dy="1961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4646,6 +4646,15 @@
           <mxGeometry x="-0.5862" y="5" relative="1" as="geometry">
             <mxPoint x="-1" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-64" value="skeletonIdPath = &quot;Spine1/Hip_L/Shin_L&quot;," style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-2620" y="3360" width="390" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-65" value="LComponent" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1080" y="2700" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-66" value="SyncLhyhEngineMode" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PfIUdf0Otu2Z0FjW2T4Y-65">
+          <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
