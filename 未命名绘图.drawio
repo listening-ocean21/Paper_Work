@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="4979" dy="2054" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4728" dy="1921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4580,16 +4580,16 @@
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-34" value="Enabled" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PfIUdf0Otu2Z0FjW2T4Y-21">
           <mxGeometry x="20" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-88" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FFFF00);" edge="1" parent="1" source="PfIUdf0Otu2Z0FjW2T4Y-35" target="PfIUdf0Otu2Z0FjW2T4Y-84">
+        <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-88" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=light-dark(#000000,#FFFF00);" edge="1" parent="1" source="PfIUdf0Otu2Z0FjW2T4Y-35" target="PfIUdf0Otu2Z0FjW2T4Y-84">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-89" value="通过_lhyhGameObject2UnityLhyhItem关联unity物体" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PfIUdf0Otu2Z0FjW2T4Y-88">
           <mxGeometry x="-0.5116" y="-5" relative="1" as="geometry">
-            <mxPoint x="75" y="-15" as="offset" />
+            <mxPoint x="-67" y="-20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-35" value="LGameObject(雷火映画中的物体)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-2560" y="3200" width="270" height="300" as="geometry" />
+        <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-35" value="LGameObject(雷火映画中的物体,会传到game)" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1705" y="3245" width="270" height="300" as="geometry" />
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-36" value="AddComponent_Internal/behaviour.OnEnable();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PfIUdf0Otu2Z0FjW2T4Y-35">
           <mxGeometry x="20" y="50" width="250" height="60" as="geometry" />
@@ -4601,7 +4601,12 @@
           <mxGeometry x="39" y="190" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="PfIUdf0Otu2Z0FjW2T4Y-36" target="PfIUdf0Otu2Z0FjW2T4Y-33">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1830" y="3320" />
+              <mxPoint x="-1830" y="2862" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-38" value="调用" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PfIUdf0Otu2Z0FjW2T4Y-37">
           <mxGeometry x="-0.2692" y="3" relative="1" as="geometry">
@@ -4677,9 +4682,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-64" value="skeletonIdPath = &quot;Spine1/Hip_L/Shin_L&quot;," style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="-2620" y="3360" width="390" height="200" as="geometry" />
-        </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-65" value="LComponent" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-1040" y="2700" width="200" height="200" as="geometry" />
         </mxCell>
@@ -4721,9 +4723,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e3c800;strokeColor=#B09500;" edge="1" parent="1" source="PfIUdf0Otu2Z0FjW2T4Y-84">
+        <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-100" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#e3c800;strokeColor=light-dark(#B09500,#FFFF33);" edge="1" parent="1" source="PfIUdf0Otu2Z0FjW2T4Y-84">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-2290" y="3410" as="targetPoint" />
+            <mxPoint x="-1700" y="3410" as="targetPoint" />
             <Array as="points">
               <mxPoint x="-2050" y="3410" />
               <mxPoint x="-2050" y="3410" />
@@ -4732,11 +4734,11 @@
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-101" value="通过_unityGameObject2LhyhGameObject关联lhyh" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PfIUdf0Otu2Z0FjW2T4Y-100">
           <mxGeometry x="0.1093" y="-3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-11" y="27" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-84" value="UnityGameObject" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-1980" y="3200" width="270" height="300" as="geometry" />
+          <mxGeometry x="-2250" y="3245" width="270" height="300" as="geometry" />
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-91" value="UnityLhyhItem" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="PfIUdf0Otu2Z0FjW2T4Y-84">
           <mxGeometry x="35" y="55" width="200" height="190" as="geometry" />
@@ -4748,7 +4750,7 @@
           <mxGeometry x="30" y="110" width="160" height="60" as="geometry" />
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-95" value="UnityLhyhGizmo" style="swimlane;whiteSpace=wrap;html=1;strokeColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-1530" y="3440" width="200" height="110" as="geometry" />
+          <mxGeometry x="-2650" y="3397" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-96" value="GameObject UnityGameObject（链接到unity中对应的物体）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PfIUdf0Otu2Z0FjW2T4Y-95">
           <mxGeometry x="30" y="40" width="160" height="60" as="geometry" />
@@ -4756,8 +4758,8 @@
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1" source="PfIUdf0Otu2Z0FjW2T4Y-94" target="PfIUdf0Otu2Z0FjW2T4Y-95">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1385" y="3460" />
-              <mxPoint x="-1385" y="3470" />
+              <mxPoint x="-2270" y="3460" />
+              <mxPoint x="-2270" y="3470" />
             </Array>
           </mxGeometry>
         </mxCell>
