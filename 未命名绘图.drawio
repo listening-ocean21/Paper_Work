@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="4801" dy="1961" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4976" dy="2094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4533,7 +4533,7 @@
           <mxGeometry x="-310" y="9460" width="220" height="200" as="geometry" />
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-13" value="SkeletonEditManager" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1310" y="9440" width="300" height="200" as="geometry" />
+          <mxGeometry x="-1140" y="9460" width="300" height="200" as="geometry" />
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-41" value="Render/DrawSkeletons（会使用到注册的UnityLhyhSkeletonRendererBehaviour）" style="rounded=0;whiteSpace=wrap;html=1;" parent="PfIUdf0Otu2Z0FjW2T4Y-13" vertex="1">
           <mxGeometry x="10" y="40" width="280" height="60" as="geometry" />
@@ -4806,6 +4806,9 @@
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-121" value="CreateCamera（在unity端创建UnityCamera）" style="rounded=0;whiteSpace=wrap;html=1;" parent="PfIUdf0Otu2Z0FjW2T4Y-120" vertex="1">
           <mxGeometry x="15" y="40" width="230" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-1" value="IUnityActor CreateActor(string actorAssetId);创建跟雷火映画对接的Actor" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="PfIUdf0Otu2Z0FjW2T4Y-120">
+          <mxGeometry x="5" y="120" width="230" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-122" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.983;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="PfIUdf0Otu2Z0FjW2T4Y-107" target="PfIUdf0Otu2Z0FjW2T4Y-119" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -4823,7 +4826,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-126" value="UnityCamera(Unity端，与lhyh无关)" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-2020" y="8480" width="200" height="200" as="geometry" />
+          <mxGeometry x="-1970" y="8116.5" width="200" height="200" as="geometry" />
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-127" value="Camera UCamera/_camera （unity端的相机）" style="rounded=0;whiteSpace=wrap;html=1;" parent="PfIUdf0Otu2Z0FjW2T4Y-126" vertex="1">
           <mxGeometry x="20" y="40" width="170" height="60" as="geometry" />
@@ -4837,7 +4840,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-130" value="enabled" style="swimlane;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-3300" y="8330" width="1190" height="550" as="geometry" />
+          <mxGeometry x="-3250" y="7966.5" width="1190" height="550" as="geometry" />
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-136" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="PfIUdf0Otu2Z0FjW2T4Y-130" source="PfIUdf0Otu2Z0FjW2T4Y-131" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -4899,6 +4902,46 @@
         </mxCell>
         <mxCell id="PfIUdf0Otu2Z0FjW2T4Y-150" value="相关" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="PfIUdf0Otu2Z0FjW2T4Y-149" vertex="1" connectable="0">
           <mxGeometry x="-0.2245" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-2" value="IUnityActor：IUnityTransform" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1980" y="8920" width="270" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-3" value="ActorGameObjectGuid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-2">
+          <mxGeometry x="10" y="30" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-6" value="ActorAssetId" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-2">
+          <mxGeometry x="10" y="70" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-7" value="AnimationController（角色动画控制器）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-2">
+          <mxGeometry x="10" y="110" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-9" value="FacialAnimationController（角色表情动画控制）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-2">
+          <mxGeometry x="10" y="160" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-8" value="FashionController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-2">
+          <mxGeometry x="10" y="200" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-10" value="PersonalizationController" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-2">
+          <mxGeometry x="10" y="240" width="230" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-11" value="UnityActor : IUnityActor" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2460" y="8940" width="300" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-14" value="GameObject ActorGameObject" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-11">
+          <mxGeometry x="20" y="30" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PfIUdf0Otu2Z0FjW2T4Y-19" target="h23QtAQUNFWK0VUgXhds-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-1260" y="9175" />
+              <mxPoint x="-1260" y="8620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-13" value="调用创建" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h23QtAQUNFWK0VUgXhds-12">
+          <mxGeometry x="0.3309" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
