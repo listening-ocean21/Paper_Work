@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="5553" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5803" dy="2094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4981,11 +4981,17 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="h23QtAQUNFWK0VUgXhds-16" value="LGameObject" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+        <mxCell id="h23QtAQUNFWK0VUgXhds-16" value="&amp;nbsp;LhyhEngine.LGameObject" style="swimlane;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
           <mxGeometry x="20" y="9740" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="h23QtAQUNFWK0VUgXhds-17" value="Guid" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-16">
-          <mxGeometry x="10" y="40" width="160" height="60" as="geometry" />
+        <mxCell id="h23QtAQUNFWK0VUgXhds-17" value="Guid（会重新分配）" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-16">
+          <mxGeometry x="10" y="40" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-71" value="Transform" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-16">
+          <mxGeometry x="10" y="90" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-73" value="_components" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-16">
+          <mxGeometry x="10" y="140" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h23QtAQUNFWK0VUgXhds-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.045;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="h23QtAQUNFWK0VUgXhds-1" target="h23QtAQUNFWK0VUgXhds-2">
           <mxGeometry relative="1" as="geometry" />
@@ -5087,6 +5093,39 @@
         </mxCell>
         <mxCell id="h23QtAQUNFWK0VUgXhds-66" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-860" y="10490" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-69" value="&amp;nbsp;Lhyh.LGameObject" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="9760" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-74" value="Transform" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-69">
+          <mxGeometry x="30" y="30" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-88" value="string UniqueName =&gt; &quot;go_&quot;+Name;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-69">
+          <mxGeometry x="30" y="80" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-75" value="&amp;nbsp;Lhyh.LObject" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="9760" width="230" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-76" value="LObjectInstanceId InstanceId" style="rounded=0;whiteSpace=wrap;html=1;fillColor=light-dark(#008a00, #8a0000);fontColor=#ffffff;strokeColor=#005700;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-75">
+          <mxGeometry x="11" y="30" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-78" value="&amp;nbsp;Lhyh.Transform" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1030" y="9990" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-79" value="Transform[]? Children&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-78">
+          <mxGeometry x="30" y="30" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-84" value="Matrix4x4 LocalToParent&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-78">
+          <mxGeometry x="30" y="83.5" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-85" value="ector3 LocalPosition" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-78">
+          <mxGeometry x="30" y="130" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.062;entryDx=0;entryDy=0;entryPerimeter=0;dashed=1;" edge="1" parent="1" source="h23QtAQUNFWK0VUgXhds-74" target="h23QtAQUNFWK0VUgXhds-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-87" value="引用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="905" y="9918" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
