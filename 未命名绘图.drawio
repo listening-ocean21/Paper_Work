@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="5803" dy="2094" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5553" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5068,6 +5068,25 @@
         </mxCell>
         <mxCell id="h23QtAQUNFWK0VUgXhds-58" value="&lt;span style=&quot;font-size: 11px; background-color: light-dark(rgb(18, 18, 18), rgb(13, 13, 13));&quot;&gt;通过_unityGameObject2LhyhGameObject关联lhyh&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-610" y="10087" width="270" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="h23QtAQUNFWK0VUgXhds-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-660" y="10580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-68" value="如何同步？" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="h23QtAQUNFWK0VUgXhds-65">
+          <mxGeometry x="0.3062" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-64" value="SkeleteNode:LGameObject" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-195" y="10480" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-67" value="在Lhyh端创建LGO" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-64">
+          <mxGeometry x="25" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-66" value="Vertical Container" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-860" y="10490" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
