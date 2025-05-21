@@ -3269,7 +3269,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="QfZKZ0pV93BbxiY-wnCu" name="第 2 页">
-    <mxGraphModel dx="5553" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6161" dy="2292" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -5128,7 +5128,7 @@
           <mxGeometry x="905" y="9918" width="50" height="30" as="geometry" />
         </mxCell>
         <mxCell id="h23QtAQUNFWK0VUgXhds-90" value="UnityLhyhSyncUtility" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-979" y="10890" width="259" height="240" as="geometry" />
+          <mxGeometry x="-923" y="11510" width="259" height="240" as="geometry" />
         </mxCell>
         <mxCell id="h23QtAQUNFWK0VUgXhds-91" value="OnLateUpdate" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-90">
           <mxGeometry x="23.5" y="40" width="200" height="110" as="geometry" />
@@ -5137,7 +5137,7 @@
           <mxGeometry x="3.5" y="40" width="193" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h23QtAQUNFWK0VUgXhds-92" value="UnityLhyhUtility" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-1340" y="10840" width="255" height="230" as="geometry" />
+          <mxGeometry x="-1284" y="11460" width="255" height="230" as="geometry" />
         </mxCell>
         <mxCell id="h23QtAQUNFWK0VUgXhds-93" value="LateUpdate()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-92">
           <mxGeometry x="5" y="30" width="250" height="200" as="geometry" />
@@ -5167,7 +5167,7 @@
           <mxGeometry x="10" y="116" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h23QtAQUNFWK0VUgXhds-115" value="UnityLhyhSkeletonRendererBehaviour" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-320" y="11230" width="269" height="130" as="geometry" />
+          <mxGeometry x="-264" y="11850" width="269" height="130" as="geometry" />
         </mxCell>
         <mxCell id="h23QtAQUNFWK0VUgXhds-116" value="&amp;nbsp;override void OnLateUpdate()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-115">
           <mxGeometry x="29" y="40" width="200" height="80" as="geometry" />
@@ -5176,7 +5176,7 @@
           <mxGeometry x="26" y="30" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="h23QtAQUNFWK0VUgXhds-117" value="LhyhEngineFacade" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-670" y="11210" width="310" height="160" as="geometry" />
+          <mxGeometry x="-614" y="11830" width="310" height="160" as="geometry" />
         </mxCell>
         <mxCell id="h23QtAQUNFWK0VUgXhds-118" value="LateUpdate()" style="swimlane;whiteSpace=wrap;html=1;startSize=30;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-117">
           <mxGeometry y="30" width="310" height="120" as="geometry" />
@@ -5185,7 +5185,7 @@
           <mxGeometry x="1" y="40" width="270" height="60" as="geometry" />
         </mxCell>
         <mxCell id="h23QtAQUNFWK0VUgXhds-119" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;LateUpdate();&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-980" y="11190" width="260" height="200" as="geometry" />
+          <mxGeometry x="-924" y="11810" width="260" height="200" as="geometry" />
         </mxCell>
         <mxCell id="h23QtAQUNFWK0VUgXhds-125" value="LhyhEngineFacade.Instance.LateUpdate();" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-119">
           <mxGeometry x="7" y="35" width="235" height="60" as="geometry" />
@@ -5197,6 +5197,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="h23QtAQUNFWK0VUgXhds-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.006;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="h23QtAQUNFWK0VUgXhds-125" target="h23QtAQUNFWK0VUgXhds-118">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-130" value="LhyhEditorApplication" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1215" y="11020" width="345" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-131" value="OnEarlyUpdate" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-130">
+          <mxGeometry x="15" y="30" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-132" value="&lt;div&gt;LhyhEngineSync.SyncRemoteData();&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: normal;&quot;&gt;OnLhyhEditorEarlyUpdate?.Invoke();&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-131">
+          <mxGeometry x="20" y="30" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-133" value="LhyhEngineSync" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-567" y="11090" width="356" height="390" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-134" value="&amp;nbsp;SyncRemoteData()" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-133">
+          <mxGeometry x="6" y="40" width="350" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-137" value="LhyhEngineSyncConverter.SyncLhyhEngineData(item);" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-134">
+          <mxGeometry x="10" y="30" width="340" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-139" value="component.OnRemoteSync();同步组件" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="h23QtAQUNFWK0VUgXhds-134">
+          <mxGeometry x="10" y="140" width="330" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="h23QtAQUNFWK0VUgXhds-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.074;entryY=0.047;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="h23QtAQUNFWK0VUgXhds-132" target="h23QtAQUNFWK0VUgXhds-134">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
